@@ -1,0 +1,4 @@
+participant_id,group_assigned,actual_time_seconds,perceived_time_seconds,time_distortion_percentage,average_watch_ratio,total_videos_viewed,timestamp
+312312312312,A,214,270,26.17,0.04,100,2026-03-16T01:27:32.261Z
+dsadas,A,285,180,-36.84,0.09,64,2026-03-16T01:45:26.334Z
+dasdasdasdas1312312,B,402,240,-40.3,0.05,30,2026-03-16T02:17:08.875Z
