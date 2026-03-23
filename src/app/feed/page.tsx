@@ -48,6 +48,7 @@ function FeedContent() {
   const playerContainerRef = useRef<HTMLDivElement>(null);
   const totalWatchTimeRef = useRef(0);
   const currentVideoWatchTimeRef = useRef(0);
+  const cumulativeVideoWatchRef = useRef(0);
   const progressIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const eventLogRef = useRef<VideoEvent[]>([]);
   const weightsRef = useRef<CategoryWeights>({});
@@ -142,6 +143,7 @@ function FeedContent() {
 
           if (delta > 0 && delta < 3) {
             totalWatchTimeRef.current += delta;
+            cumulativeVideoWatchRef.current += delta;
           }
           currentVideoWatchTimeRef.current = currentTime;
 
@@ -172,6 +174,7 @@ function FeedContent() {
     if (playerRef.current) {
       // Player exists, just load new video
       currentVideoWatchTimeRef.current = 0;
+      cumulativeVideoWatchRef.current = 0;
       playerRef.current.loadVideoById(videoId);
       startProgressTracking();
       return;
@@ -222,20 +225,11 @@ function FeedContent() {
     const video = currentVideoRef.current;
     if (!video || interruptedRef.current) return;
 
-    // Get fresh watch time from the player if available
-    let watchTime = currentVideoWatchTimeRef.current;
-    if (playerRef.current) {
-      try {
-        const freshTime = playerRef.current.getCurrentTime();
-        if (freshTime > 0) watchTime = freshTime;
-      } catch {
-        // Player not ready
-      }
-    }
+    const watchTime = cumulativeVideoWatchRef.current;
 
     const ratio =
       video.duration_seconds > 0
-        ? Math.min(watchTime / video.duration_seconds, 1.5)
+        ? Math.min(watchTime / video.duration_seconds, 1.0)
         : 0;
 
     // Log the event
@@ -284,6 +278,7 @@ function FeedContent() {
     console.log("[Algorithm] Next video:", next.id, "| Category:", next.category);
 
     currentVideoWatchTimeRef.current = 0;
+    cumulativeVideoWatchRef.current = 0;
     setCurrentVideo(next);
   }, [group]);
 
@@ -473,7 +468,7 @@ function FeedContent() {
 
             <button
               onClick={handleSurveySubmit}
-              disabled={estimatedMinutes === "" && estimatedSeconds === ""}
+              disabled={estimatedMinutes === "" || estimatedSeconds === ""}
               className="w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
             >
               Submit Estimate
