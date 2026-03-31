@@ -34,7 +34,7 @@ function FeedContent() {
 
   const participantId = searchParams.get("pid") || "";
   const group = (searchParams.get("group") as Group) || "A";
-  const interruptionTime = parseInt(searchParams.get("it") || "300", 10);
+  const interruptionTime = 720;
 
   // State
   const [currentVideo, setCurrentVideo] = useState<Video | null>(null);
@@ -320,7 +320,7 @@ function FeedContent() {
     const avgRatio =
       eventLogRef.current.length > 0
         ? eventLogRef.current.reduce((sum, e) => sum + e.ratio, 0) /
-          eventLogRef.current.length
+        eventLogRef.current.length
         : 0;
 
     const distortion =
@@ -371,9 +371,8 @@ function FeedContent() {
     >
       {/* Video Player */}
       <div
-        className={`w-full h-full transition-all duration-300 ${
-          showSurvey ? "blur-lg scale-105" : ""
-        }`}
+        className={`w-full h-full transition-all duration-300 ${showSurvey ? "blur-lg scale-105" : ""
+          }`}
       >
         <div ref={playerContainerRef} className="w-full h-full" />
 
