@@ -38,7 +38,7 @@ function FeedContent() {
 
   // State
   const [currentVideo, setCurrentVideo] = useState<Video | null>(null);
-  const [muted, setMuted] = useState(false);
+  const [muted, setMuted] = useState(true);
   const [interrupted, setInterrupted] = useState(false);
   const [showSurvey, setShowSurvey] = useState(false);
   const [ytReady, setYtReady] = useState(false);
@@ -195,7 +195,7 @@ function FeedContent() {
         disablekb: 1,
         playsinline: 1,
         loop: 1,
-        mute: 0,
+        mute: 1,
       },
       events: {
         onReady: () => {
