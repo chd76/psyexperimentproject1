@@ -42,6 +42,7 @@ function FeedContent() {
   const [interrupted, setInterrupted] = useState(false);
   const [showSurvey, setShowSurvey] = useState(false);
   const [ytReady, setYtReady] = useState(false);
+  const [needsTapToStart, setNeedsTapToStart] = useState(true);
 
   // Refs
   const playerRef = useRef<YT.Player | null>(null);
@@ -67,6 +68,15 @@ function FeedContent() {
   // Touch tracking for swipe
   const touchStartY = useRef(0);
   const feedRef = useRef<HTMLDivElement>(null);
+
+  // Tap to start with sound (unmutes on first user gesture for iOS)
+  const handleTapToStart = useCallback(() => {
+    if (!playerRef.current) return;
+    playerRef.current.unMute();
+    playerRef.current.playVideo();
+    setMuted(false);
+    setNeedsTapToStart(false);
+  }, []);
 
   // Toggle mute/unmute
   const toggleMute = useCallback(() => {
@@ -422,6 +432,24 @@ function FeedContent() {
           </div>
         )}
       </div>
+
+      {/* Tap to start overlay */}
+      {needsTapToStart && !showSurvey && (
+        <div
+          onClick={handleTapToStart}
+          className="fixed inset-0 z-40 flex flex-col items-center justify-center bg-black/80 cursor-pointer"
+        >
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center space-y-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mx-auto text-white/80">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+            </svg>
+            <p className="text-white text-lg font-medium">Tap to start with sound</p>
+            <p className="text-white/50 text-sm">The experiment will begin</p>
+          </div>
+        </div>
+      )}
 
       {/* Survey Modal */}
       {showSurvey && (
