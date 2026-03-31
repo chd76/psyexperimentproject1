@@ -85,6 +85,19 @@ export default function Onboarding() {
         return;
       }
 
+      // Request fullscreen before navigating (user gesture from button click)
+      try {
+        const el = document.documentElement;
+        const requestFs =
+          el.requestFullscreen ||
+          (el as unknown as { webkitRequestFullscreen?: () => Promise<void> }).webkitRequestFullscreen;
+        if (requestFs) {
+          await requestFs.call(el);
+        }
+      } catch (e) {
+        console.warn("Fullscreen request failed:", e);
+      }
+
       const params = new URLSearchParams({
         pid: participantId.trim(),
         group,

@@ -43,6 +43,7 @@ function FeedContent() {
   const [showSurvey, setShowSurvey] = useState(false);
   const [ytReady, setYtReady] = useState(false);
   const [needsTapToStart, setNeedsTapToStart] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(true);
 
   // Refs
   const playerRef = useRef<YT.Player | null>(null);
@@ -98,6 +99,54 @@ function FeedContent() {
   useEffect(() => {
     currentVideoRef.current = currentVideo;
   }, [currentVideo]);
+
+  // Fullscreen enforcement
+  useEffect(() => {
+    const handleFsChange = () => {
+      const fsActive = !!(
+        document.fullscreenElement ||
+        (document as unknown as { webkitFullscreenElement?: Element }).webkitFullscreenElement
+      );
+      setIsFullscreen(fsActive);
+
+      if (!fsActive && playerRef.current) {
+        playerRef.current.pauseVideo();
+      }
+    };
+
+    document.addEventListener("fullscreenchange", handleFsChange);
+    document.addEventListener("webkitfullscreenchange", handleFsChange);
+
+    // Check initial state
+    const fsActive = !!(
+      document.fullscreenElement ||
+      (document as unknown as { webkitFullscreenElement?: Element }).webkitFullscreenElement
+    );
+    setIsFullscreen(fsActive);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFsChange);
+      document.removeEventListener("webkitfullscreenchange", handleFsChange);
+    };
+  }, []);
+
+  const reEnterFullscreen = useCallback(async () => {
+    try {
+      const el = document.documentElement;
+      const requestFs =
+        el.requestFullscreen ||
+        (el as unknown as { webkitRequestFullscreen?: () => Promise<void> }).webkitRequestFullscreen;
+      if (requestFs) {
+        await requestFs.call(el);
+      }
+      setIsFullscreen(true);
+      if (playerRef.current) {
+        playerRef.current.playVideo();
+      }
+    } catch (e) {
+      console.warn("Fullscreen re-entry failed:", e);
+    }
+  }, []);
 
   // Load YouTube IFrame API
   useEffect(() => {
@@ -432,6 +481,28 @@ function FeedContent() {
           </div>
         )}
       </div>
+
+      {/* Fullscreen re-enter overlay */}
+      {!isFullscreen && !showSurvey && !needsTapToStart && (
+        <div className="fixed inset-0 z-45 flex flex-col items-center justify-center bg-black/90">
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center space-y-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mx-auto text-white/80">
+              <polyline points="15 3 21 3 21 9" />
+              <polyline points="9 21 3 21 3 15" />
+              <line x1="21" y1="3" x2="14" y2="10" />
+              <line x1="3" y1="21" x2="10" y2="14" />
+            </svg>
+            <p className="text-white text-lg font-medium">Fullscreen Required</p>
+            <p className="text-white/50 text-sm">Please return to fullscreen to continue</p>
+            <button
+              onClick={reEnterFullscreen}
+              className="mt-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-500 transition"
+            >
+              Re-enter Fullscreen
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Tap to start overlay */}
       {needsTapToStart && !showSurvey && (

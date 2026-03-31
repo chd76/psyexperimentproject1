@@ -1,12 +1,21 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 
 function DebriefContent() {
   const searchParams = useSearchParams();
   const participantId = searchParams.get("pid") || "Unknown";
   const group = searchParams.get("group") || "?";
+
+  // Exit fullscreen when arriving at debrief
+  useEffect(() => {
+    if (document.fullscreenElement) {
+      document.exitFullscreen().catch(() => {});
+    } else if ((document as unknown as { webkitFullscreenElement?: Element }).webkitFullscreenElement) {
+      (document as unknown as { webkitExitFullscreen: () => void }).webkitExitFullscreen();
+    }
+  }, []);
 
   return (
     <main className="min-h-screen flex items-center justify-center px-4">
