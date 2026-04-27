@@ -188,7 +188,7 @@ function PostSurveyContent() {
       <div className="mx-auto max-w-2xl space-y-10">
         {/* Başlık */}
         <div className="text-center">
-          <p className="text-sm text-neutral-400">
+          <p className="text-base font-medium text-white">
             Lütfen sıradaki soruları dürüstçe cevaplayın.
           </p>
         </div>
@@ -199,18 +199,18 @@ function PostSurveyContent() {
             <h2 className="text-lg font-semibold">
               Şimdiki Zaman ve Geçmiş Zamanın Kişisel Deneyimi
             </h2>
-            <p className="text-xs text-neutral-500">
+            <p className="text-xs text-neutral-400">
               Derecelendirme Ölçeği:{" "}
-              <span className="text-neutral-300">
+              <span className="text-neutral-200">
                 −2 Çok yavaş &nbsp;·&nbsp; −1 yavaş &nbsp;·&nbsp; 0 ne hızlı ne yavaş &nbsp;·&nbsp; +1 hızlı &nbsp;·&nbsp; +2 çok hızlı
               </span>
             </p>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-6">
             {SPEED_QUESTIONS.map((q) => (
               <div key={q.key} className="space-y-2">
-                <p className="text-sm text-neutral-200">
+                <p className="text-base font-medium text-white">
                   {q.label}
                   {q.optional && (
                     <span className="ml-2 text-xs text-neutral-500">(isteğe bağlı)</span>
@@ -230,19 +230,19 @@ function PostSurveyContent() {
             <h2 className="text-lg font-semibold">
               Öznel Zaman Deneyimine İlişkin İfadeler/Metaforlar
             </h2>
-            <p className="text-xs text-neutral-500">
+            <p className="text-xs text-neutral-400">
               Derecelendirme Ölçeği:{" "}
-              <span className="text-neutral-300">
+              <span className="text-neutral-200">
                 0 kesinlikle katılmıyorum &nbsp;·&nbsp; 1 katılmıyorum &nbsp;·&nbsp; 2 karasızım/nötr &nbsp;·&nbsp; 3 katılıyorum &nbsp;·&nbsp; 4 kesinlikle katılıyorum
               </span>
             </p>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-6">
             {LIKERT_GROUPS.flatMap((grp) =>
               grp.questions.map((q) => (
                 <div key={q.key} className="space-y-2">
-                  <p className="text-sm text-neutral-200">{q.label}</p>
+                  <p className="text-base font-medium text-white">{q.label}</p>
                   <LikertRow value={answers[q.key] ?? null} onChange={(v) => set(q.key, v)} />
                 </div>
               ))
