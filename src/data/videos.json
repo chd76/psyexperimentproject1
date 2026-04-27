@@ -1,380 +1,4397 @@
 [
   {
-    "id": "comedy-1",
-    "url": "https://www.youtube.com/shorts/NRg5D6YZa7E",
-    "category": "Comedy",
-    "duration_seconds": 42
-  },
-  {
-    "id": "comedy-2",
-    "url": "https://www.youtube.com/shorts/z8yTF5fXld0",
-    "category": "Comedy",
-    "duration_seconds": 55
-  },
-  {
-    "id": "comedy-3",
-    "url": "https://www.youtube.com/shorts/tvQuOmzLurw?feature=share",
-    "category": "Comedy",
-    "duration_seconds": 50
-  },
-  {
-    "id": "comedy-4",
-    "url": "https://www.youtube.com/shorts/MZpIYmlRkyU?feature=share",
-    "category": "Comedy",
-    "duration_seconds": 50
-  },
-  {
-    "id": "comedy-5",
-    "url": "https://www.youtube.com/shorts/UKD9ma8H0Jc?feature=share",
-    "category": "Comedy",
-    "duration_seconds": 50
-  },
-  {
-    "id": "nature-1",
-    "url": "https://www.youtube.com/shorts/iOP62bPfxe8?feature=share",
-    "category": "Nature",
-    "duration_seconds": 26
-  },
-  {
-    "id": "nature-2",
-    "url": "https://www.youtube.com/shorts/qbIgrxIfHxI?feature=share",
-    "category": "Nature",
-    "duration_seconds": 29
-  },
-  {
-    "id": "nature-3",
-    "url": "https://www.youtube.com/shorts/ij6o-Bbm6lY?feature=share",
-    "category": "Nature",
-    "duration_seconds": 41
-  },
-  {
-    "id": "science-1",
-    "url": "https://www.youtube.com/shorts/X_rh2S74UJs?feature=share",
-    "category": "Science",
-    "duration_seconds": 58
-  },
-  {
-    "id": "science-2",
-    "url": "https://www.youtube.com/shorts/6O4y5Yf6scA?feature=share",
-    "category": "Science",
-    "duration_seconds": 69
-  },
-  {
-    "id": "science-3",
-    "url": "https://www.youtube.com/shorts/D8iN0WBAWVk?feature=share",
-    "category": "Science",
-    "duration_seconds": 41
-  },
-  {
-    "id": "cooking-1",
-    "url": "https://www.youtube.com/shorts/QxiwbWUSj4Q?feature=share",
-    "category": "Cooking",
-    "duration_seconds": 58
-  },
-  {
-    "id": "cooking-2",
-    "url": "https://www.youtube.com/shorts/lzPz_GYY17c?feature=share",
-    "category": "Cooking",
-    "duration_seconds": 31
-  },
-  {
-    "id": "cooking-3",
-    "url": "https://www.youtube.com/shorts/BUR_kd7aYps?feature=share",
-    "category": "Cooking",
-    "duration_seconds": 57
-  },
-  {
     "id": "music-1",
-    "url": "https://www.youtube.com/shorts/ftOc2Jfe7KM?feature=share",
+    "url": "https://youtube.com/shorts/dOyKBnrQ0FE?si=1SAKFmNC36cZ0_wB",
     "category": "Music",
-    "duration_seconds": 54
+    "duration_seconds": 160.448,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 1.402068,
+      "cut_density": 0.211679,
+      "speech_load": -1.19241,
+      "music_salience": 1.247822,
+      "motion": 0.761459,
+      "text_density": -0.200615
+    }
   },
   {
     "id": "music-2",
-    "url": "https://www.youtube.com/shorts/tVCeX4V9WsM?feature=share",
+    "url": "https://youtube.com/shorts/tBwjN8tYsuQ?si=KrdyaasS9Zwyi4Lz",
     "category": "Music",
-    "duration_seconds": 59
+    "duration_seconds": 6.805,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.374572,
+      "cut_density": -0.282118,
+      "speech_load": -1.330697,
+      "music_salience": 4.291213,
+      "motion": -0.954197,
+      "text_density": 1.181934
+    }
   },
   {
     "id": "music-3",
-    "url": "https://www.youtube.com/shorts/yFmkfJOOzE4?feature=share",
+    "url": "https://youtube.com/shorts/sKBtv6FD7Wk?si=Qj9DmXQ075Vb9Q_h",
     "category": "Music",
-    "duration_seconds": 49
+    "duration_seconds": 44.352,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.88832,
+      "cut_density": 1.291179,
+      "speech_load": -0.3797,
+      "music_salience": 1.743378,
+      "motion": -0.749063,
+      "text_density": -0.606858
+    }
   },
   {
-    "id": "sports-1",
-    "url": "https://www.youtube.com/shorts/9bv0rBDxVrY?feature=share",
-    "category": "Sports",
-    "duration_seconds": 54
+    "id": "music-4",
+    "url": "https://youtube.com/shorts/hcXtI8EWW8o?si=nJkxlPMkaYdzGh1O",
+    "category": "Music",
+    "duration_seconds": 57.195,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 0.242863,
+      "speech_load": -1.187792,
+      "music_salience": -0.192146,
+      "motion": -0.818461,
+      "text_density": 0.676565
+    }
   },
   {
-    "id": "sports-2",
-    "url": "https://www.youtube.com/shorts/Ri3aLcLduzw?feature=share",
-    "category": "Sports",
-    "duration_seconds": 56
+    "id": "music-5",
+    "url": "https://youtube.com/shorts/0CdFXLHw8Fk?si=vkvbFh5tNxR47LW_",
+    "category": "Music",
+    "duration_seconds": 47.723,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": -1.156017,
+      "speech_load": -0.177009,
+      "music_salience": 5.17595,
+      "motion": -0.64108,
+      "text_density": -0.287915
+    }
   },
   {
-    "id": "sports-3",
-    "url": "https://www.youtube.com/shorts/pyxBSWQF_BE?feature=share",
-    "category": "Sports",
-    "duration_seconds": 46
+    "id": "music-6",
+    "url": "https://youtube.com/shorts/wElrRH7tips?si=uvrbpcpNwsxr16We",
+    "category": "Music",
+    "duration_seconds": 22.613,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": -0.963283,
+      "speech_load": -1.330697,
+      "music_salience": -0.225875,
+      "motion": -1.033782,
+      "text_density": 2.024332
+    }
+  },
+  {
+    "id": "music-7",
+    "url": "https://youtube.com/shorts/3yH7mdGE77A?si=RHgN7ZbOlGtueFCi",
+    "category": "Music",
+    "duration_seconds": 30.827,
+    "features": {
+      "arousal": 2.431623,
+      "valence": -0.139176,
+      "cut_density": -1.054589,
+      "speech_load": -1.330697,
+      "music_salience": -0.262199,
+      "motion": 1.348878,
+      "text_density": 0.043897
+    }
+  },
+  {
+    "id": "music-8",
+    "url": "https://youtube.com/shorts/FHw-YEXGIiw?si=pqc7HhPUhm47jPR5",
+    "category": "Music",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 1.915816,
+      "cut_density": -0.407513,
+      "speech_load": -1.330697,
+      "music_salience": -0.132472,
+      "motion": 0.303664,
+      "text_density": 0.146849
+    }
+  },
+  {
+    "id": "music-9",
+    "url": "https://youtube.com/shorts/jqPVft_o-g8?si=B7PB2KDB8wtOk1bS",
+    "category": "Music",
+    "duration_seconds": 39.335,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.374572,
+      "cut_density": -1.250337,
+      "speech_load": -1.330697,
+      "music_salience": -0.251821,
+      "motion": 2.698623,
+      "text_density": -0.954669
+    }
+  },
+  {
+    "id": "music-10",
+    "url": "https://youtube.com/shorts/kbRuMhvlGdc?si=tpMYWV-aeesjTo0A",
+    "category": "Music",
+    "duration_seconds": 59.093,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.402068,
+      "cut_density": -0.286523,
+      "speech_load": -1.014508,
+      "music_salience": 0.355301,
+      "motion": 0.381782,
+      "text_density": 0.171195
+    }
+  },
+  {
+    "id": "music-11",
+    "url": "https://youtube.com/shorts/nL3uA3NrP40?si=-Za0l_FC0kiaBHVu",
+    "category": "Music",
+    "duration_seconds": 50.368,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": -0.406128,
+      "speech_load": -1.284034,
+      "music_salience": 0.918315,
+      "motion": 0.836784,
+      "text_density": -1.166138
+    }
+  },
+  {
+    "id": "music-12",
+    "url": "https://youtube.com/shorts/FIXEE3KWRn0?si=LXD_kM76a_uHJN9N",
+    "category": "Music",
+    "duration_seconds": 54.544,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -0.761999,
+      "speech_load": -1.266293,
+      "music_salience": 0.479839,
+      "motion": -0.788544,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "music-13",
+    "url": "https://youtube.com/shorts/cpiIEIAp7Ic?si=HC004hdLQCyt7kjy",
+    "category": "Music",
+    "duration_seconds": 59.977,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 0.112393,
+      "speech_load": -0.017578,
+      "music_salience": 3.951329,
+      "motion": -0.897639,
+      "text_density": -0.027057
+    }
+  },
+  {
+    "id": "music-14",
+    "url": "https://youtube.com/shorts/VwDXz8dsS4U?si=3YwCbj4Uejnxr5SN",
+    "category": "Music",
+    "duration_seconds": 51.502,
+    "features": {
+      "arousal": 2.431623,
+      "valence": -0.139176,
+      "cut_density": 0.049984,
+      "speech_load": -1.330697,
+      "music_salience": -0.11431,
+      "motion": 0.729965,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "music-15",
+    "url": "https://youtube.com/shorts/A8nsbkh4eds?si=TX7Cxz5D2fdah4XI",
+    "category": "Music",
+    "duration_seconds": 59.541,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.374572,
+      "cut_density": 0.654886,
+      "speech_load": -1.330697,
+      "music_salience": -0.044258,
+      "motion": -0.861684,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "music-16",
+    "url": "https://youtube.com/shorts/5SZ7gXVJaQY?si=WyuKobVfe2nPyaTg",
+    "category": "Music",
+    "duration_seconds": 44.141,
+    "features": {
+      "arousal": 2.946535,
+      "valence": -0.139176,
+      "cut_density": -1.62907,
+      "speech_load": -0.849973,
+      "music_salience": -0.096148,
+      "motion": 0.599533,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "music-17",
+    "url": "https://youtube.com/shorts/xnKJjo3K-ec?si=G3CNN_mhSAJ_cYnd",
+    "category": "Music",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": -1.531719,
+      "speech_load": -1.232754,
+      "music_salience": 2.296015,
+      "motion": -0.609008,
+      "text_density": -0.085141
+    }
+  },
+  {
+    "id": "music-18",
+    "url": "https://youtube.com/shorts/7QHuyUPgP-g?si=_RfwxXzekHzIkg8O",
+    "category": "Music",
+    "duration_seconds": 54.683,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -1.43081,
+      "speech_load": -1.330697,
+      "music_salience": -0.161012,
+      "motion": -1.351196,
+      "text_density": -0.923018
+    }
+  },
+  {
+    "id": "music-19",
+    "url": "https://youtube.com/shorts/KnNqa8LPXqc?si=hbIyxIUF5Cdd7ika",
+    "category": "Music",
+    "duration_seconds": 42.678,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": -0.259495,
+      "speech_load": -1.330697,
+      "music_salience": -0.207713,
+      "motion": -1.010044,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "music-20",
+    "url": "https://youtube.com/shorts/BUFrIHn6NCw?si=T0uPeqFH8UQkzhZL",
+    "category": "Music",
+    "duration_seconds": 58.816,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": 0.518205,
+      "speech_load": -1.330697,
+      "music_salience": 1.297118,
+      "motion": 0.163542,
+      "text_density": -1.30248
+    }
   },
   {
     "id": "gaming-1",
-    "url": "https://www.youtube.com/shorts/IVwn9fxTvj0?feature=share",
+    "url": "https://youtube.com/shorts/r5TCySyzDqg?si=-sm9nHEjupUsJMFM",
     "category": "Gaming",
-    "duration_seconds": 55
+    "duration_seconds": 58.347,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.168382,
+      "speech_load": -1.330697,
+      "music_salience": -0.153228,
+      "motion": -0.328897,
+      "text_density": -1.2437
+    }
   },
   {
     "id": "gaming-2",
-    "url": "https://www.youtube.com/shorts/Ib4oM347dnI?feature=share",
+    "url": "https://youtube.com/shorts/wIvUMHloWMQ?si=71m9o86o2TG4TUkF",
     "category": "Gaming",
-    "duration_seconds": 60
+    "duration_seconds": 65.557,
+    "features": {
+      "arousal": 1.916711,
+      "valence": -0.652924,
+      "cut_density": -0.90736,
+      "speech_load": 0.349162,
+      "music_salience": -0.267388,
+      "motion": 0.53587,
+      "text_density": -1.091706
+    }
   },
   {
     "id": "gaming-3",
-    "url": "https://www.youtube.com/shorts/T2nm1o0GL4Y?feature=share",
+    "url": "https://youtube.com/shorts/a_ozlLB3mXQ?si=j2s2grNWK003b5yO",
     "category": "Gaming",
-    "duration_seconds": 48
+    "duration_seconds": 18.924,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.652924,
+      "cut_density": 1.543272,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -0.001511,
+      "text_density": -1.30248
+    }
   },
   {
     "id": "gaming-4",
-    "url": "https://www.youtube.com/shorts/J0ulddoZer8?feature=share",
+    "url": "https://youtube.com/shorts/0lKrQkIJOKE?si=6xbcciBtj2s-Jbdf",
     "category": "Gaming",
-    "duration_seconds": 48
+    "duration_seconds": 50.88,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": 0.387938,
+      "speech_load": -1.307609,
+      "music_salience": 0.020606,
+      "motion": -0.035154,
+      "text_density": -0.279568
+    }
   },
   {
     "id": "gaming-5",
-    "url": "https://www.youtube.com/shorts/mYDFVugyQHk?feature=share",
+    "url": "https://youtube.com/shorts/0voPKspKjAs?si=RE264GDkVfqVPq16",
     "category": "Gaming",
-    "duration_seconds": 104
+    "duration_seconds": 37.483,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": -0.631446,
+      "speech_load": -1.050234,
+      "music_salience": -0.267388,
+      "motion": -0.66933,
+      "text_density": -1.028057
+    }
   },
   {
     "id": "gaming-6",
-    "url": "https://www.youtube.com/shorts/18QJbIG8Q_U?feature=share",
+    "url": "https://youtube.com/shorts/IZHZAYSXiS0?si=4d3vmWJxC9wLv_aL",
     "category": "Gaming",
-    "duration_seconds": 74
+    "duration_seconds": 46.301,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.232179,
+      "speech_load": -0.039694,
+      "music_salience": -0.015718,
+      "motion": -0.087534,
+      "text_density": -0.044447
+    }
   },
   {
     "id": "gaming-7",
-    "url": "https://www.youtube.com/shorts/v6PPMLGr-NA?feature=share",
+    "url": "https://youtube.com/shorts/OyC7MPuPQzs?si=wzAnIiZKVb09ghN6",
     "category": "Gaming",
-    "duration_seconds": 52
+    "duration_seconds": 17.28,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.652924,
+      "cut_density": 0.433262,
+      "speech_load": -1.330697,
+      "music_salience": -0.233659,
+      "motion": 0.852587,
+      "text_density": -1.30248
+    }
   },
   {
     "id": "gaming-8",
-    "url": "https://www.youtube.com/shorts/e4omDMCAKMQ?feature=share",
+    "url": "https://youtube.com/shorts/FF1joQNABbg?si=YG5vx6qx6jU9cnKH",
     "category": "Gaming",
-    "duration_seconds": 49
+    "duration_seconds": 24.277,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.652924,
+      "cut_density": -0.004747,
+      "speech_load": -0.309949,
+      "music_salience": -0.259604,
+      "motion": -0.333757,
+      "text_density": 1.758257
+    }
   },
   {
     "id": "gaming-9",
-    "url": "https://www.youtube.com/shorts/Xg07zM5ZHaQ?feature=share",
+    "url": "https://youtube.com/shorts/LaLvErFaNhs?si=4a_Bu-84KSwR412s",
     "category": "Gaming",
-    "duration_seconds": 33
+    "duration_seconds": 57.353,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": 0.958834,
+      "speech_load": -0.9834,
+      "music_salience": -0.267388,
+      "motion": -1.237271,
+      "text_density": -0.762677
+    }
   },
   {
-    "id": "diy-1",
-    "url": "https://www.youtube.com/shorts/jGfZGW3Ln5o?feature=share",
-    "category": "DIY",
-    "duration_seconds": 20
+    "id": "gaming-10",
+    "url": "https://youtube.com/shorts/j5CMZQrx_zQ?si=1mmDMvVwQrkULNGQ",
+    "category": "Gaming",
+    "duration_seconds": 20.117,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": 0.783524,
+      "speech_load": -0.441431,
+      "music_salience": -0.280361,
+      "motion": 0.050995,
+      "text_density": -0.971364
+    }
   },
   {
-    "id": "diy-2",
-    "url": "https://www.youtube.com/shorts/sDDXE1F0HBA?feature=share",
-    "category": "DIY",
-    "duration_seconds": 40
+    "id": "gaming-11",
+    "url": "https://youtube.com/shorts/rlxrvPSjzlE?si=U-BV2FwHXthjDY27",
+    "category": "Gaming",
+    "duration_seconds": 24.288,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.652924,
+      "cut_density": -0.219511,
+      "speech_load": -0.844627,
+      "music_salience": -0.293333,
+      "motion": 0.706679,
+      "text_density": 1.619133
+    }
   },
   {
-    "id": "diy-3",
-    "url": "https://www.youtube.com/shorts/lJuHZaBxDcM?feature=share",
-    "category": "DIY",
-    "duration_seconds": 39
+    "id": "gaming-12",
+    "url": "https://youtube.com/shorts/R3Ly6YJN45g?si=nHNB0JfHc4NLopSs",
+    "category": "Gaming",
+    "duration_seconds": 37.152,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.055549,
+      "speech_load": 0.847141,
+      "music_salience": -0.249226,
+      "motion": 0.083957,
+      "text_density": -0.753286
+    }
   },
   {
-    "id": "diy-4",
-    "url": "https://www.youtube.com/shorts/t1VldqLp9I0?feature=share",
-    "category": "DIY",
-    "duration_seconds": 60
+    "id": "gaming-13",
+    "url": "https://youtube.com/shorts/F4ezlZ5ik6Q?si=CB9skLE6s0i6x8AS",
+    "category": "Gaming",
+    "duration_seconds": 58.581,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": -0.355144,
+      "speech_load": 1.099654,
+      "music_salience": -0.293333,
+      "motion": -0.845133,
+      "text_density": 1.703999
+    }
   },
   {
-    "id": "diy-5",
-    "url": "https://www.youtube.com/shorts/BMeF4roS5IM?feature=share",
-    "category": "DIY",
-    "duration_seconds": 59
+    "id": "gaming-14",
+    "url": "https://youtube.com/shorts/_v0GDYD8c28?si=51YKxnoJdhl6vdTR",
+    "category": "Gaming",
+    "duration_seconds": 51.968,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": -1.670859,
+      "speech_load": 0.311977,
+      "music_salience": -0.275171,
+      "motion": -0.303774,
+      "text_density": 0.369796
+    }
   },
   {
-    "id": "diy-6",
-    "url": "https://www.youtube.com/shorts/gGSEWgCXuDg?feature=share",
-    "category": "DIY",
-    "duration_seconds": 62
+    "id": "gaming-15",
+    "url": "https://youtube.com/shorts/Yei2wTPOrzw?si=wTADux2ACEQ8zZMJ",
+    "category": "Gaming",
+    "duration_seconds": 59.883,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 0.376565,
+      "speech_load": 1.04084,
+      "music_salience": -0.298522,
+      "motion": -1.112782,
+      "text_density": -1.186659
+    }
   },
   {
-    "id": "diy-7",
-    "url": "https://www.youtube.com/shorts/8FtVY9h9QSU?feature=share",
-    "category": "DIY",
-    "duration_seconds": 49
+    "id": "gaming-16",
+    "url": "https://youtube.com/shorts/Do9ZDeRGlSY?si=0vlOfMYdf8dQ-9ed",
+    "category": "Gaming",
+    "duration_seconds": 57.493,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": 0.40875,
+      "speech_load": -1.167377,
+      "music_salience": -0.22847,
+      "motion": 0.674925,
+      "text_density": 2.115807
+    }
   },
   {
-    "id": "animals-1",
-    "url": "https://www.youtube.com/shorts/hShtaRMxFA8?feature=share",
-    "category": "Animals",
-    "duration_seconds": 39
+    "id": "gaming-17",
+    "url": "https://youtube.com/shorts/2IR_I_YC-xM?si=tgpDpjwxcqC8g1DA",
+    "category": "Gaming",
+    "duration_seconds": 60.224,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": 0.790648,
+      "speech_load": 0.458042,
+      "music_salience": -0.192146,
+      "motion": -1.259846,
+      "text_density": 2.004507
+    }
   },
   {
-    "id": "animals-2",
-    "url": "https://www.youtube.com/shorts/btNq3K1y3M0?feature=share",
-    "category": "Animals",
-    "duration_seconds": 8
+    "id": "gaming-18",
+    "url": "https://youtube.com/shorts/VAde7NoldTk?si=hGwTirjLwJ5JFYXl",
+    "category": "Gaming",
+    "duration_seconds": 60.907,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 1.604898,
+      "speech_load": 1.080454,
+      "music_salience": -0.301117,
+      "motion": -1.344662,
+      "text_density": -1.188398
+    }
   },
   {
-    "id": "animals-3",
-    "url": "https://www.youtube.com/shorts/tz7kclc4wms?feature=share",
-    "category": "Animals",
-    "duration_seconds": 14
+    "id": "gaming-19",
+    "url": "https://youtube.com/shorts/yWwakMYY6XE?si=aNi7sh9WpjmMsygr",
+    "category": "Gaming",
+    "duration_seconds": 53.452,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.433882,
+      "speech_load": 0.092517,
+      "music_salience": 0.381246,
+      "motion": -0.894445,
+      "text_density": 0.114502
+    }
   },
   {
-    "id": "animals-4",
-    "url": "https://www.youtube.com/shorts/fazI6hff52c?feature=share",
-    "category": "Animals",
-    "duration_seconds": 35
+    "id": "gaming-20",
+    "url": "https://youtube.com/shorts/KLC5ej-P8k0?si=6ceHGDu0sTtwuMoj",
+    "category": "Gaming",
+    "duration_seconds": 47.936,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -1.166672,
+      "cut_density": -0.512854,
+      "speech_load": -1.330697,
+      "music_salience": -0.08577,
+      "motion": -0.601762,
+      "text_density": -1.30248
+    }
   },
   {
-    "id": "animals-5",
-    "url": "https://www.youtube.com/shorts/hT1mo3RbvIo?feature=share",
-    "category": "Animals",
-    "duration_seconds": 58
+    "id": "sports-1",
+    "url": "https://youtube.com/shorts/Psk_geG141A?si=E5rvVEcTTXrZSWAi",
+    "category": "Sports",
+    "duration_seconds": 96.384,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.402068,
+      "cut_density": -0.039277,
+      "speech_load": 0.662191,
+      "music_salience": -0.272577,
+      "motion": 0.692595,
+      "text_density": -0.513644
+    }
   },
   {
-    "id": "animals-6",
-    "url": "https://www.youtube.com/shorts/kVk41mBqBXY?feature=share",
-    "category": "Animals",
-    "duration_seconds": 52
+    "id": "sports-2",
+    "url": "https://youtube.com/shorts/cBSoglR5gNE?si=cgho-HWt6SV3gyFo",
+    "category": "Sports",
+    "duration_seconds": 32.853,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.374572,
+      "cut_density": -0.516299,
+      "speech_load": 0.098836,
+      "music_salience": -0.275171,
+      "motion": -0.3467,
+      "text_density": 0.910989
+    }
   },
   {
-    "id": "animals-7",
-    "url": "https://www.youtube.com/shorts/11MyVduyaGk?feature=share",
-    "category": "Animals",
-    "duration_seconds": 67
+    "id": "sports-3",
+    "url": "https://youtube.com/shorts/FK9dCkV-Tuc?si=tsPapp6mkqzYOcjD",
+    "category": "Sports",
+    "duration_seconds": 35.264,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": -0.0681,
+      "speech_load": -0.43171,
+      "music_salience": -0.298522,
+      "motion": 1.656291,
+      "text_density": 0.050157
+    }
   },
   {
-    "id": "animals-8",
-    "url": "https://www.youtube.com/shorts/thmQqpbQcRg?feature=share",
-    "category": "Animals",
-    "duration_seconds": 28
+    "id": "sports-4",
+    "url": "https://youtube.com/shorts/amovH5XNKzY?si=AefglxY-UXi68HYp",
+    "category": "Sports",
+    "duration_seconds": 32.981,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 0.262341,
+      "speech_load": -1.330697,
+      "music_salience": -0.197335,
+      "motion": 0.35211,
+      "text_density": -0.353999
+    }
   },
   {
-    "id": "animals-9",
-    "url": "https://www.youtube.com/shorts/FNxqSLE2BUY?feature=share",
-    "category": "Animals",
-    "duration_seconds": 120
+    "id": "sports-5",
+    "url": "https://youtube.com/shorts/UOIBkoy1Wqs?si=mFknmyEZmgkPvIUT",
+    "category": "Sports",
+    "duration_seconds": 24.427,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.232841,
+      "speech_load": -1.233483,
+      "music_salience": -0.238848,
+      "motion": 1.916642,
+      "text_density": 1.897381
+    }
   },
   {
-    "id": "animals-10",
-    "url": "https://www.youtube.com/shorts/lRLVGTnjQSQ?feature=share",
-    "category": "Animals",
-    "duration_seconds": 22
+    "id": "sports-6",
+    "url": "https://youtube.com/shorts/cROssenFUgE?si=U_tAgyMlQ_Pa632S",
+    "category": "Sports",
+    "duration_seconds": 136.917,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.88832,
+      "cut_density": 0.689645,
+      "speech_load": 0.980324,
+      "music_salience": -0.282955,
+      "motion": 0.899514,
+      "text_density": 0.170152
+    }
   },
   {
-    "id": "animals-11",
-    "url": "https://www.youtube.com/shorts/CqIGRCYm5cQ?feature=share",
-    "category": "Animals",
-    "duration_seconds": 68
+    "id": "sports-7",
+    "url": "https://youtube.com/shorts/2XheHeOPvuw?si=U7Fk7fy38ohsvktz",
+    "category": "Sports",
+    "duration_seconds": 23.787,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.606245,
+      "speech_load": -1.330697,
+      "music_salience": -0.241442,
+      "motion": 0.706071,
+      "text_density": -0.143226
+    }
   },
   {
-    "id": "animals-12",
-    "url": "https://www.youtube.com/shorts/9lul0gZ7uN4?feature=share",
-    "category": "Animals",
-    "duration_seconds": 57
+    "id": "sports-8",
+    "url": "https://youtube.com/shorts/o7_AmnYPVvo?si=JjvekGhrPF2zKzF2",
+    "category": "Sports",
+    "duration_seconds": 94.165,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.88832,
+      "cut_density": -0.640885,
+      "speech_load": 0.677988,
+      "music_salience": -0.282955,
+      "motion": 0.749576,
+      "text_density": -1.156051
+    }
   },
   {
-    "id": "animals-13",
-    "url": "https://www.youtube.com/shorts/2AGt9GXSsyI?feature=share",
-    "category": "Animals",
-    "duration_seconds": 58
+    "id": "sports-9",
+    "url": "https://youtube.com/shorts/k8gFVXXmL-Q?si=gVkRmtBTSPDPttCj",
+    "category": "Sports",
+    "duration_seconds": 22.454,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.374572,
+      "cut_density": 0.203553,
+      "speech_load": -1.330697,
+      "music_salience": 0.321572,
+      "motion": 2.038161,
+      "text_density": 0.3611
+    }
   },
   {
-    "id": "travel-1",
-    "url": "https://www.youtube.com/shorts/_zpJKVFdvE8?feature=share",
-    "category": "Travel",
-    "duration_seconds": 42
+    "id": "sports-10",
+    "url": "https://youtube.com/shorts/N4za2daVCD0?si=VMvtdwfqPhCw4Jbt",
+    "category": "Sports",
+    "duration_seconds": 14.891,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 0.218165,
+      "speech_load": 0.532653,
+      "music_salience": -0.301117,
+      "motion": 2.231041,
+      "text_density": 0.088764
+    }
   },
   {
-    "id": "travel-2",
-    "url": "https://www.youtube.com/shorts/cPGeYvZw3rs?feature=share",
-    "category": "Travel",
-    "duration_seconds": 44
+    "id": "sports-11",
+    "url": "https://youtube.com/shorts/DDwyJyI-nEA?si=8of_ldEoW1gpnWlm",
+    "category": "Sports",
+    "duration_seconds": 53.397,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.374572,
+      "cut_density": -0.820372,
+      "speech_load": -0.739635,
+      "music_salience": -0.231064,
+      "motion": 0.55474,
+      "text_density": -0.529644
+    }
   },
   {
-    "id": "travel-3",
-    "url": "https://www.youtube.com/shorts/IF8CO57ATs8?feature=share",
-    "category": "Travel",
-    "duration_seconds": 20
+    "id": "sports-12",
+    "url": "https://youtube.com/shorts/KT1xuGh5KcU?si=FzsX9Vc8uTxSJyXd",
+    "category": "Sports",
+    "duration_seconds": 49.342,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.374572,
+      "cut_density": -0.150844,
+      "speech_load": 0.765967,
+      "music_salience": -0.293333,
+      "motion": 0.477718,
+      "text_density": 0.158326
+    }
   },
   {
-    "id": "travel-4",
-    "url": "https://www.youtube.com/shorts/1IAFhoNPjso?feature=share",
-    "category": "Travel",
-    "duration_seconds": 30
+    "id": "sports-13",
+    "url": "https://youtube.com/shorts/D09QkQ8Cyow?si=vtudODkgDKgT5Efw",
+    "category": "Sports",
+    "duration_seconds": 23.452,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 0.306741,
+      "speech_load": 0.137721,
+      "music_salience": -0.275171,
+      "motion": 1.584507,
+      "text_density": -0.577989
+    }
   },
   {
-    "id": "travel-5",
-    "url": "https://www.youtube.com/shorts/4QZjqLOBrpU?feature=share",
-    "category": "Travel",
-    "duration_seconds": 21
+    "id": "sports-14",
+    "url": "https://youtube.com/shorts/k9bt-Q8_3wU?si=RcvCxRrEKUYAgppx",
+    "category": "Sports",
+    "duration_seconds": 29.376,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": -1.156412,
+      "speech_load": -0.454069,
+      "music_salience": -0.269982,
+      "motion": -0.111338,
+      "text_density": -0.954669
+    }
   },
   {
-    "id": "travel-6",
-    "url": "https://www.youtube.com/shorts/0lu8hbD9npY?feature=share",
-    "category": "Travel",
-    "duration_seconds": 54
+    "id": "sports-15",
+    "url": "https://youtube.com/shorts/HJInQGm2GgE?si=ywkzvyN_eKO69rrr",
+    "category": "Sports",
+    "duration_seconds": 47.74,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -1.047849,
+      "speech_load": 0.829642,
+      "music_salience": -0.272577,
+      "motion": 1.851401,
+      "text_density": 0.001811
+    }
   },
   {
-    "id": "travel-7",
-    "url": "https://www.youtube.com/shorts/598GNijYKT0?feature=share",
-    "category": "Travel",
-    "duration_seconds": 143
+    "id": "sports-16",
+    "url": "https://youtube.com/shorts/T5Jt2EB4nBI?si=RJAsHDgvhSSAD2Y9",
+    "category": "Sports",
+    "duration_seconds": 32.369,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.652924,
+      "cut_density": -0.164952,
+      "speech_load": -0.859209,
+      "music_salience": -0.179174,
+      "motion": 1.393331,
+      "text_density": 0.383708
+    }
   },
   {
-    "id": "travel-8",
-    "url": "https://www.youtube.com/shorts/O8cuIxngLqI?feature=share",
-    "category": "Travel",
-    "duration_seconds": 24
+    "id": "sports-17",
+    "url": "https://youtube.com/shorts/KphPhRnqruU?si=_w_RL3eKp_GcoDDq",
+    "category": "Sports",
+    "duration_seconds": 51.316,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.374572,
+      "cut_density": 0.160581,
+      "speech_load": -0.000809,
+      "music_salience": -0.293333,
+      "motion": 1.74384,
+      "text_density": 0.235888
+    }
   },
   {
-    "id": "history-1",
-    "url": "https://www.youtube.com/shorts/9H5RjFp8Qlw?feature=share",
-    "category": "History",
-    "duration_seconds": 52
+    "id": "sports-18",
+    "url": "https://youtube.com/shorts/6vSbM7BzSBc?si=wWg3QTn3u3Js1x65",
+    "category": "Sports",
+    "duration_seconds": 34.688,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": -0.026565,
+      "speech_load": -1.263133,
+      "music_salience": -0.264793,
+      "motion": -0.060937,
+      "text_density": 0.188238
+    }
   },
   {
-    "id": "history-2",
-    "url": "https://www.youtube.com/shorts/uXgeAHZIF5Y?feature=share",
-    "category": "History",
-    "duration_seconds": 33
+    "id": "sports-19",
+    "url": "https://youtube.com/shorts/9IVpT9BhFlU?si=yc0olgITFpXMvVXX",
+    "category": "Sports",
+    "duration_seconds": 108.373,
+    "features": {
+      "arousal": 2.946535,
+      "valence": 0.374572,
+      "cut_density": 0.494732,
+      "speech_load": -0.164128,
+      "music_salience": -0.272577,
+      "motion": 2.594848,
+      "text_density": -0.696245
+    }
   },
   {
-    "id": "tech-1",
-    "url": "https://www.youtube.com/shorts/_4Tr2v0jjlE?feature=share",
-    "category": "Tech",
-    "duration_seconds": 58
+    "id": "autos-vehicles-1",
+    "url": "https://youtube.com/shorts/pdkz7-tSZyQ?si=ny8H14khJIODXOtO",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 60.224,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": 0.446026,
+      "speech_load": 0.846898,
+      "music_salience": -0.249226,
+      "motion": 1.62078,
+      "text_density": 0.408055
+    }
   },
   {
-    "id": "tech-2",
-    "url": "https://www.youtube.com/shorts/C2747HGlcTo?feature=share",
-    "category": "Tech",
-    "duration_seconds": 77
+    "id": "autos-vehicles-2",
+    "url": "https://youtube.com/shorts/8S1PXBOw1o8?si=cyrf9QcckpOUyVhd",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 59.883,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 1.32969,
+      "speech_load": -1.193382,
+      "music_salience": -0.212903,
+      "motion": -0.291764,
+      "text_density": -1.30248
+    }
   },
   {
-    "id": "art-1",
-    "url": "https://www.youtube.com/shorts/4bakjRbAsKM?feature=share",
-    "category": "Art",
-    "duration_seconds": 50
+    "id": "autos-vehicles-3",
+    "url": "https://youtube.com/shorts/5tnkb5XvDWE?si=5NzlsQCBu50m6-nn",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 81.792,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.68042,
+      "cut_density": -0.222261,
+      "speech_load": 1.05688,
+      "music_salience": -0.295928,
+      "motion": 0.688112,
+      "text_density": -1.047882
+    }
   },
   {
-    "id": "art-2",
-    "url": "https://www.youtube.com/shorts/YFyRVrqZ-e8?feature=share",
-    "category": "Art",
-    "duration_seconds": 47
+    "id": "autos-vehicles-4",
+    "url": "https://youtube.com/shorts/fu_LhJRZhiU?si=QdZavcwZFQkfVuc1",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 59.819,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": 0.292975,
+      "speech_load": 1.060526,
+      "music_salience": -0.303711,
+      "motion": -1.098431,
+      "text_density": 1.190282
+    }
+  },
+  {
+    "id": "autos-vehicles-5",
+    "url": "https://youtube.com/shorts/I4Exd_LYxgc?si=YIEi0nOkRU6hXMvl",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 33.808,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": -0.574293,
+      "speech_load": -1.261189,
+      "music_salience": -0.254415,
+      "motion": -1.071322,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "autos-vehicles-6",
+    "url": "https://youtube.com/shorts/Sc9DSRY8rJk?si=9XYz5osGgGFgTcYf",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 30.0,
+    "features": {
+      "arousal": 1.4018,
+      "valence": -0.652924,
+      "cut_density": -2.396497,
+      "speech_load": -1.252197,
+      "music_salience": -0.28555,
+      "motion": 0.8004,
+      "text_density": 2.059809
+    }
+  },
+  {
+    "id": "autos-vehicles-7",
+    "url": "https://youtube.com/shorts/EFj9HT2p_QU?si=mvtcv-1uo8I-t9Rq",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 28.05,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": 0.020294,
+      "speech_load": -1.288895,
+      "music_salience": -0.210308,
+      "motion": -0.320784,
+      "text_density": 0.136762
+    }
+  },
+  {
+    "id": "autos-vehicles-8",
+    "url": "https://youtube.com/shorts/7L0bbww8uxA?si=5fw2xl-DZpz8IP61",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 32.341,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.639252,
+      "speech_load": 0.990775,
+      "music_salience": -0.280361,
+      "motion": 1.059662,
+      "text_density": 0.805603
+    }
+  },
+  {
+    "id": "autos-vehicles-9",
+    "url": "https://youtube.com/shorts/vM1325rQoa4?si=3qu-8nMEEjT3zefy",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 41.053,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.652924,
+      "cut_density": -0.926376,
+      "speech_load": -1.187792,
+      "music_salience": 0.495406,
+      "motion": 2.837997,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "autos-vehicles-10",
+    "url": "https://youtube.com/shorts/hrJ5idq8Oys?si=018s8-IKBrJpocr9",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 30.674,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -1.166672,
+      "cut_density": -1.385341,
+      "speech_load": -1.330697,
+      "music_salience": -0.197335,
+      "motion": -0.049646,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "autos-vehicles-11",
+    "url": "https://youtube.com/shorts/PyauruT2Etg?si=X2bjMmoZ5jgm3NCQ",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 33.506,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -1.485457,
+      "speech_load": 0.888214,
+      "music_salience": -0.272577,
+      "motion": 1.524474,
+      "text_density": -0.995711
+    }
+  },
+  {
+    "id": "autos-vehicles-12",
+    "url": "https://youtube.com/shorts/whsWQOvSOyw?si=4izvggvJke-uy88g",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 22.848,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.68042,
+      "cut_density": -1.888177,
+      "speech_load": -1.330697,
+      "music_salience": -0.280361,
+      "motion": 1.156784,
+      "text_density": 0.058505
+    }
+  },
+  {
+    "id": "autos-vehicles-13",
+    "url": "https://youtube.com/shorts/zJmj3ZaqtNk?si=UzW6ZBGaqCNblmV9",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 28.468,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -1.166672,
+      "cut_density": -1.111322,
+      "speech_load": -1.330697,
+      "music_salience": -0.231064,
+      "motion": 1.294705,
+      "text_density": -0.702854
+    }
+  },
+  {
+    "id": "autos-vehicles-14",
+    "url": "https://youtube.com/shorts/Sxgtzafz5NM?si=LaZvhqAgdPDAosO-",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 60.032,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -1.166672,
+      "cut_density": -0.149355,
+      "speech_load": 0.496927,
+      "music_salience": -0.259604,
+      "motion": 0.774091,
+      "text_density": -0.838848
+    }
+  },
+  {
+    "id": "autos-vehicles-15",
+    "url": "https://youtube.com/shorts/-07V22aYIRY?si=60sRqs2BKGXI8jHl",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 13.468,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -1.166672,
+      "cut_density": -1.02836,
+      "speech_load": -1.330697,
+      "music_salience": 0.760049,
+      "motion": 1.989478,
+      "text_density": -0.557121
+    }
+  },
+  {
+    "id": "autos-vehicles-16",
+    "url": "https://youtube.com/shorts/d_eVI74sV9k?si=33MM1cNjq8NUGgry",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 42.214,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -1.217394,
+      "speech_load": -1.330697,
+      "music_salience": 0.033578,
+      "motion": -0.789048,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "autos-vehicles-17",
+    "url": "https://youtube.com/shorts/vXBf9GMiriQ?si=j5c3YeT7UfG7tzli",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 86.827,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": -0.298603,
+      "speech_load": 0.856619,
+      "music_salience": -0.28555,
+      "motion": 0.537692,
+      "text_density": -1.102488
+    }
+  },
+  {
+    "id": "autos-vehicles-18",
+    "url": "https://youtube.com/shorts/04jERLeaDqM?si=D64ZiroeDd_pxVel",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 9.52,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -1.166672,
+      "cut_density": 2.880744,
+      "speech_load": -1.330697,
+      "music_salience": -0.140256,
+      "motion": -0.126393,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "autos-vehicles-19",
+    "url": "https://youtube.com/shorts/ZKOxGyLIKWI?si=wh6erxg2Q1lYjCCB",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 20.48,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": 1.484209,
+      "speech_load": -1.330697,
+      "music_salience": -0.163606,
+      "motion": -0.320392,
+      "text_density": 2.010072
+    }
+  },
+  {
+    "id": "autos-vehicles-20",
+    "url": "https://youtube.com/shorts/us7ZlphRd8g?si=7MS1AxhEwyTuIpZp",
+    "category": "Autos & Vehicles",
+    "duration_seconds": 17.81,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 2.091996,
+      "speech_load": -1.330697,
+      "music_salience": -0.236253,
+      "motion": -0.865455,
+      "text_density": 0.436575
+    }
+  },
+  {
+    "id": "pets-animals-1",
+    "url": "https://youtube.com/shorts/XjaMv-mtaHI?si=Sr4CJIep0WgAozKJ",
+    "category": "Pets & Animals",
+    "duration_seconds": 58.581,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.000855,
+      "speech_load": -1.330697,
+      "music_salience": -0.166201,
+      "motion": 0.12555,
+      "text_density": -0.005493
+    }
+  },
+  {
+    "id": "pets-animals-2",
+    "url": "https://youtube.com/shorts/zvjfHU_akWQ?si=XIS_EN8LK1rHk0hi",
+    "category": "Pets & Animals",
+    "duration_seconds": 63.253,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 1.402068,
+      "cut_density": -0.272607,
+      "speech_load": -1.275042,
+      "music_salience": -0.202524,
+      "motion": -1.022943,
+      "text_density": -0.650334
+    }
+  },
+  {
+    "id": "pets-animals-3",
+    "url": "https://youtube.com/shorts/KCRHtSZlGJE?si=3ESWmCiHjSgv5Cm4",
+    "category": "Pets & Animals",
+    "duration_seconds": 85.909,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 1.402068,
+      "cut_density": -0.334752,
+      "speech_load": 0.130187,
+      "music_salience": -0.184363,
+      "motion": -0.292135,
+      "text_density": 0.800733
+    }
+  },
+  {
+    "id": "pets-animals-4",
+    "url": "https://youtube.com/shorts/eucS7vDOX4Y?si=fsozfrMNBBhztcCW",
+    "category": "Pets & Animals",
+    "duration_seconds": 94.955,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 1.402068,
+      "cut_density": -0.274413,
+      "speech_load": -0.109445,
+      "music_salience": 0.124387,
+      "motion": 0.22033,
+      "text_density": -0.131052
+    }
+  },
+  {
+    "id": "pets-animals-5",
+    "url": "https://youtube.com/shorts/w6Z1HaAYZN4?si=jGvORi-3InMhfiJ3",
+    "category": "Pets & Animals",
+    "duration_seconds": 124.949,
+    "features": {
+      "arousal": 2.431623,
+      "valence": 1.402068,
+      "cut_density": -0.243976,
+      "speech_load": -1.106375,
+      "music_salience": 0.970206,
+      "motion": 0.709183,
+      "text_density": -1.135531
+    }
+  },
+  {
+    "id": "pets-animals-6",
+    "url": "https://youtube.com/shorts/rg9darsSNK4?si=8nx1cr-0ERG75oAG",
+    "category": "Pets & Animals",
+    "duration_seconds": 92.629,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.374572,
+      "cut_density": -0.104764,
+      "speech_load": -0.609126,
+      "music_salience": -0.007934,
+      "motion": -0.333327,
+      "text_density": 0.231019
+    }
+  },
+  {
+    "id": "pets-animals-7",
+    "url": "https://youtube.com/shorts/pkc6KNwVYXM?si=oiIj3H7SMYc7ng-n",
+    "category": "Pets & Animals",
+    "duration_seconds": 33.408,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 0.692115,
+      "speech_load": -0.098023,
+      "music_salience": -0.272577,
+      "motion": -0.048142,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "pets-animals-8",
+    "url": "https://youtube.com/shorts/ke_094aVPqw?si=aOUjiPTqeyKryZem",
+    "category": "Pets & Animals",
+    "duration_seconds": 60.651,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.174043,
+      "speech_load": -1.195569,
+      "music_salience": -0.25701,
+      "motion": 1.754464,
+      "text_density": -1.131357
+    }
+  },
+  {
+    "id": "pets-animals-9",
+    "url": "https://youtube.com/shorts/L9zarjTBrAc?si=WByLQLmxlqd1exZ4",
+    "category": "Pets & Animals",
+    "duration_seconds": 94.144,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 1.402068,
+      "cut_density": -0.419992,
+      "speech_load": -1.070406,
+      "music_salience": -0.031285,
+      "motion": -0.728311,
+      "text_density": -0.451386
+    }
+  },
+  {
+    "id": "pets-animals-10",
+    "url": "https://youtube.com/shorts/M1zMnvptsAE?si=jcKwzz73_gQAJUXK",
+    "category": "Pets & Animals",
+    "duration_seconds": 111.467,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.402068,
+      "cut_density": -0.660934,
+      "speech_load": 0.659761,
+      "music_salience": -0.259604,
+      "motion": 0.426768,
+      "text_density": -0.184615
+    }
+  },
+  {
+    "id": "pets-animals-11",
+    "url": "https://youtube.com/shorts/gJOs3H-bKvM?si=n47fwr_c15nY00E3",
+    "category": "Pets & Animals",
+    "duration_seconds": 71.957,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": 0.170647,
+      "speech_load": -0.090975,
+      "music_salience": -0.269982,
+      "motion": -1.084458,
+      "text_density": -1.109097
+    }
+  },
+  {
+    "id": "pets-animals-12",
+    "url": "https://youtube.com/shorts/NacJrstVda8?si=fcQO8YRyjArngD3o",
+    "category": "Pets & Animals",
+    "duration_seconds": 34.005,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": 0.939989,
+      "speech_load": -1.295943,
+      "music_salience": 1.019502,
+      "motion": 2.054393,
+      "text_density": 0.845601
+    }
+  },
+  {
+    "id": "pets-animals-13",
+    "url": "https://youtube.com/shorts/BKocnHls9XI?si=nSq9iBiPkgk0TJvB",
+    "category": "Pets & Animals",
+    "duration_seconds": 58.305,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 1.402068,
+      "cut_density": -0.522645,
+      "speech_load": -1.069677,
+      "music_salience": 0.233358,
+      "motion": 0.329528,
+      "text_density": -1.066664
+    }
+  },
+  {
+    "id": "pets-animals-14",
+    "url": "https://youtube.com/shorts/YoRE6wJIIwc?si=YiTWdz6mLoBzD7ya",
+    "category": "Pets & Animals",
+    "duration_seconds": 54.827,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 1.402068,
+      "cut_density": 0.175052,
+      "speech_load": -0.883026,
+      "music_salience": -0.000151,
+      "motion": 1.084519,
+      "text_density": 1.922772
+    }
+  },
+  {
+    "id": "pets-animals-15",
+    "url": "https://youtube.com/shorts/hDKSGAcyPCc?si=0jVJu0QkqEDyPGkV",
+    "category": "Pets & Animals",
+    "duration_seconds": 122.027,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": -0.783573,
+      "speech_load": -1.110507,
+      "music_salience": 0.056929,
+      "motion": 0.000423,
+      "text_density": 1.776343
+    }
+  },
+  {
+    "id": "pets-animals-16",
+    "url": "https://youtube.com/shorts/CKy9r6REvis?si=Q8j75QXFUW86pibo",
+    "category": "Pets & Animals",
+    "duration_seconds": 74.795,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.402068,
+      "cut_density": -0.141416,
+      "speech_load": -0.374354,
+      "music_salience": 0.116604,
+      "motion": 0.374921,
+      "text_density": 0.691521
+    }
+  },
+  {
+    "id": "pets-animals-17",
+    "url": "https://youtube.com/shorts/k1faP8VxwjM?si=W3Wshd9xAuJ8-ypF",
+    "category": "Pets & Animals",
+    "duration_seconds": 75.2,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 0.604478,
+      "speech_load": 0.445404,
+      "music_salience": -0.246632,
+      "motion": 1.902373,
+      "text_density": 0.390664
+    }
+  },
+  {
+    "id": "pets-animals-18",
+    "url": "https://youtube.com/shorts/UemwH06HrFI?si=eSkHTEcSWWhMeNl6",
+    "category": "Pets & Animals",
+    "duration_seconds": 51.285,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 1.402068,
+      "cut_density": 0.162215,
+      "speech_load": -1.078426,
+      "music_salience": 2.524334,
+      "motion": -0.828596,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "pets-animals-19",
+    "url": "https://youtube.com/shorts/CD0GkUECdnI?si=UoszNG4wz8TzU4sr",
+    "category": "Pets & Animals",
+    "duration_seconds": 67.541,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.88832,
+      "cut_density": -0.95618,
+      "speech_load": -0.705854,
+      "music_salience": 0.106225,
+      "motion": 0.555088,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "pets-animals-20",
+    "url": "https://youtube.com/shorts/CD0GkUECdnI?si=UoszNG4wz8TzU4sr",
+    "category": "Pets & Animals",
+    "duration_seconds": 67.541,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.95618,
+      "speech_load": -0.705854,
+      "music_salience": 0.106225,
+      "motion": 0.555088,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "film-animation-1",
+    "url": "https://youtube.com/shorts/NbK0MRs_iJ8?si=ZBYTNJktHlb9EcGc",
+    "category": "Film & Animation",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.88832,
+      "cut_density": 1.840905,
+      "speech_load": -1.252197,
+      "music_salience": -0.272577,
+      "motion": -0.98421,
+      "text_density": 2.059809
+    }
+  },
+  {
+    "id": "film-animation-2",
+    "url": "https://youtube.com/shorts/iKL-wgIPgZI?si=Y9zTR5RFLSFYfLaI",
+    "category": "Film & Animation",
+    "duration_seconds": 19.853,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": -0.739973,
+      "speech_load": 0.744094,
+      "music_salience": -0.246632,
+      "motion": -0.864262,
+      "text_density": -0.432952
+    }
+  },
+  {
+    "id": "film-animation-3",
+    "url": "https://youtube.com/shorts/FnzF2CHnmLw?si=DrR-dLaX7diEpI_y",
+    "category": "Film & Animation",
+    "duration_seconds": 53.099,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.88832,
+      "cut_density": 0.264365,
+      "speech_load": 0.878735,
+      "music_salience": -0.272577,
+      "motion": 0.022301,
+      "text_density": 1.716172
+    }
+  },
+  {
+    "id": "film-animation-4",
+    "url": "https://youtube.com/shorts/KazgP3uLfvI?si=Fq2hnKUfU007p7nQ",
+    "category": "Film & Animation",
+    "duration_seconds": 16.718,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.7073,
+      "speech_load": -1.259245,
+      "music_salience": 0.313788,
+      "motion": -1.24005,
+      "text_density": -0.279568
+    }
+  },
+  {
+    "id": "film-animation-5",
+    "url": "https://youtube.com/shorts/Q8qOw6PLugo?si=9fKK79ZRCC7Bu2_N",
+    "category": "Film & Animation",
+    "duration_seconds": 11.215,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.88832,
+      "cut_density": 0.669072,
+      "speech_load": -1.330697,
+      "music_salience": 0.088064,
+      "motion": -1.176675,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "film-animation-7",
+    "url": "https://youtube.com/shorts/GUXKh1ACyKQ?si=z2adbsDmHXbnIpo4",
+    "category": "Film & Animation",
+    "duration_seconds": 55.101,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -0.215277,
+      "speech_load": 0.992962,
+      "music_salience": -0.246632,
+      "motion": -0.723155,
+      "text_density": -0.743548
+    }
+  },
+  {
+    "id": "film-animation-9",
+    "url": "https://youtube.com/shorts/o-A4ysf9vcU?si=mErxi98VNN283ASF",
+    "category": "Film & Animation",
+    "duration_seconds": 30.14,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.18504,
+      "speech_load": -1.330697,
+      "music_salience": -0.000151,
+      "motion": 0.594132,
+      "text_density": -0.722679
+    }
+  },
+  {
+    "id": "film-animation-10",
+    "url": "https://youtube.com/shorts/66n9l8GRCpQ?si=28wTdUP3S0_gLYlL",
+    "category": "Film & Animation",
+    "duration_seconds": 58.7,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": 0.435918,
+      "speech_load": 0.900365,
+      "music_salience": -0.290739,
+      "motion": 0.272043,
+      "text_density": 0.584047
+    }
+  },
+  {
+    "id": "film-animation-12",
+    "url": "https://youtube.com/shorts/dJtwQxKCVFw?si=HwnXY5N3PefTC2RT",
+    "category": "Film & Animation",
+    "duration_seconds": 77.996,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": 0.424181,
+      "speech_load": 0.754544,
+      "music_salience": -0.295928,
+      "motion": -0.110909,
+      "text_density": 0.213628
+    }
+  },
+  {
+    "id": "film-animation-15",
+    "url": "https://youtube.com/shorts/uhKPtJrbqUM?si=W4Wnx1cwLGnJbOv2",
+    "category": "Film & Animation",
+    "duration_seconds": 40.914,
+    "features": {
+      "arousal": 1.4018,
+      "valence": -0.139176,
+      "cut_density": 0.474247,
+      "speech_load": 0.728054,
+      "music_salience": -0.231064,
+      "motion": 0.046728,
+      "text_density": 0.224411
+    }
+  },
+  {
+    "id": "film-animation-16",
+    "url": "https://youtube.com/shorts/l1pQY2tvA_4?si=Eimru-RtVo-an-W-",
+    "category": "Film & Animation",
+    "duration_seconds": 58.411,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.88832,
+      "cut_density": -0.259843,
+      "speech_load": 0.818463,
+      "music_salience": -0.28555,
+      "motion": -0.23016,
+      "text_density": -0.830848
+    }
+  },
+  {
+    "id": "film-animation-17",
+    "url": "https://youtube.com/shorts/dEnr5dKZ-AE?si=vO0Xbtmm0wFF-3GR",
+    "category": "Film & Animation",
+    "duration_seconds": 59.157,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.201284,
+      "speech_load": 0.76378,
+      "music_salience": -0.25701,
+      "motion": -0.300521,
+      "text_density": 0.204585
+    }
+  },
+  {
+    "id": "film-animation-18",
+    "url": "https://youtube.com/shorts/hgawqced1qA?si=PXgWV_xxe6ogVKkl",
+    "category": "Film & Animation",
+    "duration_seconds": 62.763,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": 1.150768,
+      "speech_load": 0.669725,
+      "music_salience": -0.277766,
+      "motion": -0.380847,
+      "text_density": 0.02268
+    }
+  },
+  {
+    "id": "film-animation-20",
+    "url": "https://youtube.com/shorts/3hJL9A3La1Y?si=P-2bepcM5H-tk7ww",
+    "category": "Film & Animation",
+    "duration_seconds": 60.011,
+    "features": {
+      "arousal": 1.916711,
+      "valence": -1.166672,
+      "cut_density": -0.58081,
+      "speech_load": 0.766453,
+      "music_salience": -0.137661,
+      "motion": -0.185278,
+      "text_density": 0.26267
+    }
+  },
+  {
+    "id": "news-politics-1",
+    "url": "https://youtube.com/shorts/a9I-mhn6dts?si=4-O2H-hNemraXYiz",
+    "category": "News & Politics",
+    "duration_seconds": 166.485,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": -0.605991,
+      "speech_load": 1.092606,
+      "music_salience": -0.298522,
+      "motion": -0.608926,
+      "text_density": -0.282002
+    }
+  },
+  {
+    "id": "news-politics-2",
+    "url": "https://youtube.com/shorts/397nTurL_cc?si=3CSVi5AXPmccKHqZ",
+    "category": "News & Politics",
+    "duration_seconds": 60.416,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.652924,
+      "cut_density": 0.178793,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -0.278954,
+      "text_density": -0.675377
+    }
+  },
+  {
+    "id": "news-politics-3",
+    "url": "https://youtube.com/shorts/rH6nNHT6EyU?si=r9VVVJmMLptrn4J5",
+    "category": "News & Politics",
+    "duration_seconds": 53.461,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": -0.434245,
+      "speech_load": 0.968172,
+      "music_salience": -0.275171,
+      "motion": -0.210364,
+      "text_density": -0.916062
+    }
+  },
+  {
+    "id": "news-politics-4",
+    "url": "https://youtube.com/shorts/oKNhDtVEcz4?si=xqiRX8wJzM4XuRvf",
+    "category": "News & Politics",
+    "duration_seconds": 165.461,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.033338,
+      "speech_load": 0.944112,
+      "music_salience": -0.290739,
+      "motion": -0.037606,
+      "text_density": -0.778676
+    }
+  },
+  {
+    "id": "news-politics-5",
+    "url": "https://youtube.com/shorts/rih89mxtCAE?si=XsHuQQfz0WgoMQyI",
+    "category": "News & Politics",
+    "duration_seconds": 14.72,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -1.864465,
+      "speech_load": -1.330697,
+      "music_salience": 0.656267,
+      "motion": -1.65809,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "news-politics-6",
+    "url": "https://youtube.com/shorts/OrFyz0IU64A?si=9C6ZeU-forAQR_Ni",
+    "category": "News & Politics",
+    "duration_seconds": 57.579,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": -0.04624,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -1.048103,
+      "text_density": 1.096373
+    }
+  },
+  {
+    "id": "news-politics-7",
+    "url": "https://youtube.com/shorts/D14qZFAzctI?si=KADNdOGw0kSG8OET",
+    "category": "News & Politics",
+    "duration_seconds": 14.721,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": 1.660038,
+      "speech_load": 0.289618,
+      "music_salience": -0.259604,
+      "motion": 1.092609,
+      "text_density": -0.143226
+    }
+  },
+  {
+    "id": "news-politics-8",
+    "url": "https://youtube.com/shorts/4FcuhduYLQY?si=uT_Xp3afgduhG_Fr",
+    "category": "News & Politics",
+    "duration_seconds": 12.459,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": -0.487092,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -0.878183,
+      "text_density": 0.035201
+    }
+  },
+  {
+    "id": "news-politics-9",
+    "url": "https://youtube.com/shorts/tC5J8a6vTkM?si=G0_cGjzvjloy_rFO",
+    "category": "News & Politics",
+    "duration_seconds": 35.84,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": 0.181247,
+      "speech_load": 0.836933,
+      "music_salience": -0.280361,
+      "motion": -0.818906,
+      "text_density": 1.306103
+    }
+  },
+  {
+    "id": "news-politics-10",
+    "url": "https://youtube.com/shorts/x_xG9mFAXls?si=FNIiaMHl3XCV8pWy",
+    "category": "News & Politics",
+    "duration_seconds": 45.883,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": -1.890937,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": -1.169533,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "news-politics-11",
+    "url": "https://youtube.com/shorts/XDBLgxZSLQg?si=zbYBKccM6e2vmh9J",
+    "category": "News & Politics",
+    "duration_seconds": 34.283,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -1.055948,
+      "speech_load": 1.031118,
+      "music_salience": -0.301117,
+      "motion": -0.636235,
+      "text_density": -0.408258
+    }
+  },
+  {
+    "id": "news-politics-12",
+    "url": "https://youtube.com/shorts/qzYTN4lfEn4?si=RlcV9R4mip43rWdP",
+    "category": "News & Politics",
+    "duration_seconds": 63.019,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -1.581422,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -1.483428,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "news-politics-13",
+    "url": "https://youtube.com/shorts/Ov7bRasBw94?si=eXX21z3uC68Som07",
+    "category": "News & Politics",
+    "duration_seconds": 54.976,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.450737,
+      "speech_load": 0.992962,
+      "music_salience": -0.236253,
+      "motion": -1.005851,
+      "text_density": 0.088764
+    }
+  },
+  {
+    "id": "news-politics-14",
+    "url": "https://youtube.com/shorts/lRXqdZrHCeU?si=Rf8biYZ-UjoK_Jl9",
+    "category": "News & Politics",
+    "duration_seconds": 68.174,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": 0.322717,
+      "speech_load": 0.444675,
+      "music_salience": -0.220686,
+      "motion": -0.16337,
+      "text_density": 1.357231
+    }
+  },
+  {
+    "id": "news-politics-15",
+    "url": "https://youtube.com/shorts/VVXz99wPKGs?si=w6GWVcUX-nS7jsWB",
+    "category": "News & Politics",
+    "duration_seconds": 26.122,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.980417,
+      "speech_load": 1.099654,
+      "music_salience": -0.288144,
+      "motion": -1.019491,
+      "text_density": -0.400606
+    }
+  },
+  {
+    "id": "news-politics-16",
+    "url": "https://youtube.com/shorts/BbtTWnSjtHM?si=cwrOtROU0AEDbyU_",
+    "category": "News & Politics",
+    "duration_seconds": 28.48,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.92977,
+      "speech_load": 0.893804,
+      "music_salience": -0.288144,
+      "motion": -1.030493,
+      "text_density": 1.935641
+    }
+  },
+  {
+    "id": "news-politics-17",
+    "url": "https://youtube.com/shorts/8nZU9cGZHUg?si=PX0Hx042B0aSFyxw",
+    "category": "News & Politics",
+    "duration_seconds": 50.645,
+    "features": {
+      "arousal": 1.4018,
+      "valence": -0.652924,
+      "cut_density": 1.73351,
+      "speech_load": 0.428391,
+      "music_salience": -0.272577,
+      "motion": -0.961917,
+      "text_density": -0.006884
+    }
+  },
+  {
+    "id": "news-politics-18",
+    "url": "https://youtube.com/shorts/5f0exFm3WFk?si=0QH5n7Mg4WPOAqv4",
+    "category": "News & Politics",
+    "duration_seconds": 121.045,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 0.516872,
+      "speech_load": 0.916406,
+      "music_salience": -0.28555,
+      "motion": -0.434183,
+      "text_density": 1.457053
+    }
+  },
+  {
+    "id": "news-politics-19",
+    "url": "https://youtube.com/shorts/5f0exFm3WFk?si=0QH5n7Mg4WPOAqv4",
+    "category": "News & Politics",
+    "duration_seconds": 121.045,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": 0.516872,
+      "speech_load": 0.916406,
+      "music_salience": -0.28555,
+      "motion": -0.434183,
+      "text_density": 1.457053
+    }
+  },
+  {
+    "id": "news-politics-20",
+    "url": "https://youtube.com/shorts/UV63fJ25rZI?si=4OWF64uvqcJoCk7Q",
+    "category": "News & Politics",
+    "duration_seconds": 42.944,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -1.119556,
+      "speech_load": 0.74458,
+      "music_salience": 0.344923,
+      "motion": -1.402628,
+      "text_density": 0.234497
+    }
+  },
+  {
+    "id": "education-1",
+    "url": "https://youtube.com/shorts/9YV0Klhy0g4?si=mT0usVjQ9xErbqCx",
+    "category": "Education",
+    "duration_seconds": 46.613,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": 1.771766,
+      "speech_load": 1.099654,
+      "music_salience": -0.275171,
+      "motion": -1.173889,
+      "text_density": 0.695694
+    }
+  },
+  {
+    "id": "education-2",
+    "url": "https://youtube.com/shorts/k4KKd7yNxQo?si=eC1cLFyt3QHqY6a4",
+    "category": "Education",
+    "duration_seconds": 25.451,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.139176,
+      "cut_density": -1.142345,
+      "speech_load": 0.959423,
+      "music_salience": -0.236253,
+      "motion": -1.420357,
+      "text_density": 0.704042
+    }
+  },
+  {
+    "id": "education-3",
+    "url": "https://youtube.com/shorts/hfPkgx9WTB0?si=tuqkOoysFxaXXhUL",
+    "category": "Education",
+    "duration_seconds": 123.179,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.652924,
+      "cut_density": 0.800408,
+      "speech_load": 1.071219,
+      "music_salience": -0.301117,
+      "motion": -1.144032,
+      "text_density": -1.246482
+    }
+  },
+  {
+    "id": "education-4",
+    "url": "https://youtube.com/shorts/EoaBoWyrYSo?si=1dpXdUx8_nAZaLoX",
+    "category": "Education",
+    "duration_seconds": 174.784,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": -0.491414,
+      "speech_load": 1.019453,
+      "music_salience": -0.301117,
+      "motion": -0.612705,
+      "text_density": -0.885107
+    }
+  },
+  {
+    "id": "education-5",
+    "url": "https://youtube.com/shorts/AQGH7zkcHro?si=GDHPvPNMR39YZutt",
+    "category": "Education",
+    "duration_seconds": 99.883,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": 0.44352,
+      "speech_load": 0.982754,
+      "music_salience": -0.293333,
+      "motion": -0.152983,
+      "text_density": -1.059012
+    }
+  },
+  {
+    "id": "education-6",
+    "url": "https://youtube.com/shorts/mB1U5W8nwTg?si=uP60zTaAp9EpPetg",
+    "category": "Education",
+    "duration_seconds": 80.576,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.122447,
+      "speech_load": 0.997823,
+      "music_salience": -0.25701,
+      "motion": -0.397761,
+      "text_density": -0.229135
+    }
+  },
+  {
+    "id": "education-7",
+    "url": "https://youtube.com/shorts/limeAdAHaLM?si=HRXwQ7RDOpje9Spv",
+    "category": "Education",
+    "duration_seconds": 83.648,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.70855,
+      "speech_load": 1.099654,
+      "music_salience": -0.298522,
+      "motion": -1.457534,
+      "text_density": -0.101836
+    }
+  },
+  {
+    "id": "education-8",
+    "url": "https://youtube.com/shorts/MDCBRRcGcyA?si=SkPIM9UIh6WbNHJ4",
+    "category": "Education",
+    "duration_seconds": 18.837,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.735912,
+      "speech_load": 1.099654,
+      "music_salience": -0.293333,
+      "motion": 0.27031,
+      "text_density": -0.387041
+    }
+  },
+  {
+    "id": "education-9",
+    "url": "https://youtube.com/shorts/PZy6zPeAHi0?si=AevdSze4FGiyp1Hu",
+    "category": "Education",
+    "duration_seconds": 42.773,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 0.463211,
+      "speech_load": 1.017751,
+      "music_salience": -0.251821,
+      "motion": -1.611081,
+      "text_density": -0.170007
+    }
+  },
+  {
+    "id": "education-10",
+    "url": "https://youtube.com/shorts/Lw09DcP2TDo?si=cq3EeWytX6miqlp5",
+    "category": "Education",
+    "duration_seconds": 35.712,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 0.191085,
+      "speech_load": 0.705451,
+      "music_salience": -0.301117,
+      "motion": -0.509449,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "education-11",
+    "url": "https://youtube.com/shorts/uCNEcsHuYAo?si=dhVYNMLaRJEGEzy1",
+    "category": "Education",
+    "duration_seconds": 53.197,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -1.594077,
+      "speech_load": 1.055422,
+      "music_salience": -0.275171,
+      "motion": -0.796709,
+      "text_density": 1.125589
+    }
+  },
+  {
+    "id": "education-12",
+    "url": "https://youtube.com/shorts/Ds-HPWlZVMw?si=037NsIE-74dqwK3v",
+    "category": "Education",
+    "duration_seconds": 58.261,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.253923,
+      "speech_load": 1.059553,
+      "music_salience": -0.298522,
+      "motion": 0.090002,
+      "text_density": 0.348231
+    }
+  },
+  {
+    "id": "education-13",
+    "url": "https://youtube.com/shorts/5HszJ9VqI8g?si=f333uGeFYScnYqTG",
+    "category": "Education",
+    "duration_seconds": 60.053,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -1.100628,
+      "speech_load": 1.060769,
+      "music_salience": -0.280361,
+      "motion": -0.784988,
+      "text_density": 0.436575
+    }
+  },
+  {
+    "id": "education-14",
+    "url": "https://youtube.com/shorts/LQ7kNLEw_gw?si=TMbyA_cx-PlEkFyA",
+    "category": "Education",
+    "duration_seconds": 53.894,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.25881,
+      "speech_load": 0.991261,
+      "music_salience": -0.233659,
+      "motion": -1.344876,
+      "text_density": 1.016376
+    }
+  },
+  {
+    "id": "education-15",
+    "url": "https://youtube.com/shorts/ipbsTRR-a3s?si=6Zo76ppMs4gHZdHO",
+    "category": "Education",
+    "duration_seconds": 68.757,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -1.28657,
+      "speech_load": 0.487935,
+      "music_salience": -0.280361,
+      "motion": -1.096468,
+      "text_density": -1.151182
+    }
+  },
+  {
+    "id": "education-16",
+    "url": "https://youtube.com/shorts/RSkUpKc_Y1c?si=d0lf_egdUOnCpKu3",
+    "category": "Education",
+    "duration_seconds": 57.121,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.207702,
+      "speech_load": 1.099654,
+      "music_salience": -0.293333,
+      "motion": 0.102219,
+      "text_density": -0.582859
+    }
+  },
+  {
+    "id": "education-17",
+    "url": "https://youtube.com/shorts/uJ-5PD_su2M?si=oLLNcyoWqgLqJ3fG",
+    "category": "Education",
+    "duration_seconds": 44.211,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.691651,
+      "speech_load": 1.046916,
+      "music_salience": -0.303711,
+      "motion": -1.24957,
+      "text_density": -1.07049
+    }
+  },
+  {
+    "id": "education-18",
+    "url": "https://youtube.com/shorts/e8nzGeukfBI?si=TAthr1X71mUZPmX_",
+    "category": "Education",
+    "duration_seconds": 54.66,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 0.373286,
+      "speech_load": 1.03525,
+      "music_salience": -0.288144,
+      "motion": 0.050721,
+      "text_density": 1.480008
+    }
+  },
+  {
+    "id": "education-19",
+    "url": "https://youtube.com/shorts/Ic9jJzCYhUE?si=BfKhxRfbDkxx47zG",
+    "category": "Education",
+    "duration_seconds": 53.824,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.641435,
+      "speech_load": 0.904254,
+      "music_salience": -0.28555,
+      "motion": -0.867374,
+      "text_density": 1.789212
+    }
+  },
+  {
+    "id": "education-20",
+    "url": "https://youtube.com/shorts/7Vtg20gJ7UY?si=C7wGgHZ9Q3Z-siVz",
+    "category": "Education",
+    "duration_seconds": 51.479,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.755176,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": -1.361042,
+      "text_density": -1.2357
+    }
+  },
+  {
+    "id": "science-technology-1",
+    "url": "https://youtube.com/shorts/PBgIFp__UKY?si=S2BLuu8pvOOdu_Na",
+    "category": "Science & Technology",
+    "duration_seconds": 37.525,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.334251,
+      "speech_load": 0.8503,
+      "music_salience": -0.267388,
+      "motion": -0.264381,
+      "text_density": -0.478863
+    }
+  },
+  {
+    "id": "science-technology-2",
+    "url": "https://youtube.com/shorts/IKS2vNOcZ7A?si=b8cHAnYToXDyjtVR",
+    "category": "Science & Technology",
+    "duration_seconds": 110.656,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 1.915816,
+      "cut_density": -0.318719,
+      "speech_load": 0.148658,
+      "music_salience": -0.210308,
+      "motion": -0.425952,
+      "text_density": -0.424953
+    }
+  },
+  {
+    "id": "science-technology-3",
+    "url": "https://youtube.com/shorts/uvG-WToQfU4?si=8pAr_sg-XvRs1B3d",
+    "category": "Science & Technology",
+    "duration_seconds": 59.755,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.138122,
+      "speech_load": 0.903768,
+      "music_salience": -0.267388,
+      "motion": -1.489444,
+      "text_density": -0.200962
+    }
+  },
+  {
+    "id": "science-technology-4",
+    "url": "https://youtube.com/shorts/_utuiCPnurg?si=79vK7_fwdw1DS4KT",
+    "category": "Science & Technology",
+    "duration_seconds": 59.606,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": 0.042055,
+      "speech_load": 1.079968,
+      "music_salience": -0.282955,
+      "motion": 0.047031,
+      "text_density": 1.94364
+    }
+  },
+  {
+    "id": "science-technology-5",
+    "url": "https://youtube.com/shorts/EACjoPZPYzI?si=2TIEbk_Ob9Z6Q4g3",
+    "category": "Science & Technology",
+    "duration_seconds": 60.053,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -0.063815,
+      "speech_load": 1.080211,
+      "music_salience": -0.303711,
+      "motion": -0.996672,
+      "text_density": -0.722679
+    }
+  },
+  {
+    "id": "science-technology-6",
+    "url": "https://youtube.com/shorts/EnJgyKosCII?si=mGZXjiZBYZ8nvCAX",
+    "category": "Science & Technology",
+    "duration_seconds": 27.989,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": -0.715643,
+      "speech_load": 1.057852,
+      "music_salience": -0.238848,
+      "motion": -0.077184,
+      "text_density": 1.430271
+    }
+  },
+  {
+    "id": "science-technology-7",
+    "url": "https://youtube.com/shorts/KQqPcjXMNUo?si=NOi8ShdEh02xLUOf",
+    "category": "Science & Technology",
+    "duration_seconds": 14.141,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -1.8356,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": 0.827938,
+      "text_density": -0.374868
+    }
+  },
+  {
+    "id": "science-technology-8",
+    "url": "https://youtube.com/shorts/oDN7A2IRXYQ?si=DI7ILxcG2jF0arAz",
+    "category": "Science & Technology",
+    "duration_seconds": 44.513,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -1.753484,
+      "speech_load": 1.099654,
+      "music_salience": -0.298522,
+      "motion": -1.028922,
+      "text_density": 0.397968
+    }
+  },
+  {
+    "id": "science-technology-9",
+    "url": "https://youtube.com/shorts/V9Mpmidh69E?si=jRDQ3XZ_us_rhj3Y",
+    "category": "Science & Technology",
+    "duration_seconds": 39.893,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": 0.031829,
+      "speech_load": 1.099654,
+      "music_salience": -0.277766,
+      "motion": 0.275933,
+      "text_density": 1.306103
+    }
+  },
+  {
+    "id": "science-technology-10",
+    "url": "https://youtube.com/shorts/IuaF6UoVH6c?si=3CQNHAgtn-b40fi5",
+    "category": "Science & Technology",
+    "duration_seconds": 56.256,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 1.304354,
+      "speech_load": 0.767182,
+      "music_salience": -0.122094,
+      "motion": 0.566068,
+      "text_density": -0.692419
+    }
+  },
+  {
+    "id": "science-technology-11",
+    "url": "https://youtube.com/shorts/qRGYAQUOKcE?si=C0tueUM_99lthBpa",
+    "category": "Science & Technology",
+    "duration_seconds": 27.307,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": 1.040841,
+      "speech_load": 1.099654,
+      "music_salience": -0.259604,
+      "motion": 0.106531,
+      "text_density": 1.803125
+    }
+  },
+  {
+    "id": "science-technology-12",
+    "url": "https://youtube.com/shorts/UzKSA8jcFv4?si=JzK-0XChAy93xRvJ",
+    "category": "Science & Technology",
+    "duration_seconds": 33.019,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": 0.259129,
+      "speech_load": 1.099654,
+      "music_salience": -0.298522,
+      "motion": -1.277649,
+      "text_density": -0.143226
+    }
+  },
+  {
+    "id": "science-technology-13",
+    "url": "https://youtube.com/shorts/6PaLnLxCAmQ?si=UX2nQRr-P45AwpFt",
+    "category": "Science & Technology",
+    "duration_seconds": 30.933,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": 3.13363,
+      "speech_load": 1.099654,
+      "music_salience": -0.293333,
+      "motion": 0.00798,
+      "text_density": 0.941597
+    }
+  },
+  {
+    "id": "science-technology-14",
+    "url": "https://youtube.com/shorts/p_XFXSlsUQs?si=6PaUOARzxYI9xFcV",
+    "category": "Science & Technology",
+    "duration_seconds": 33.131,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": 0.249577,
+      "speech_load": 1.099654,
+      "music_salience": -0.282955,
+      "motion": -0.951115,
+      "text_density": -0.995711
+    }
+  },
+  {
+    "id": "science-technology-15",
+    "url": "https://youtube.com/shorts/aDt7WrHTnYw?si=4jKn6w6e3MQf9ygv",
+    "category": "Science & Technology",
+    "duration_seconds": 58.839,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -0.453039,
+      "speech_load": -1.09155,
+      "music_salience": -0.241442,
+      "motion": 0.244164,
+      "text_density": 1.291495
+    }
+  },
+  {
+    "id": "science-technology-16",
+    "url": "https://youtube.com/shorts/Hag52ouCzJs?si=1s4JwhrANtIbMfF9",
+    "category": "Science & Technology",
+    "duration_seconds": 32.647,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": -0.662272,
+      "speech_load": -0.351265,
+      "music_salience": 0.261898,
+      "motion": 2.422461,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "science-technology-17",
+    "url": "https://youtube.com/shorts/4kXfACSZAUI?si=RRXK6d11xMDAi_P3",
+    "category": "Science & Technology",
+    "duration_seconds": 52.843,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -0.311055,
+      "speech_load": 0.878735,
+      "music_salience": -0.225875,
+      "motion": -1.00557,
+      "text_density": 0.600742
+    }
+  },
+  {
+    "id": "science-technology-18",
+    "url": "https://youtube.com/shorts/8mf_Qp3BN0g?si=XusSddmUndv1hQMk",
+    "category": "Science & Technology",
+    "duration_seconds": 51.435,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": -0.148354,
+      "speech_load": -1.330697,
+      "music_salience": -0.163606,
+      "motion": -1.202072,
+      "text_density": 0.369796
+    }
+  },
+  {
+    "id": "science-technology-19",
+    "url": "https://youtube.com/shorts/jhwvCKrUq9U?si=cAZ9sk0IbD4pEgRg",
+    "category": "Science & Technology",
+    "duration_seconds": 29.675,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": 0.752744,
+      "speech_load": 0.741177,
+      "music_salience": -0.298522,
+      "motion": 1.151346,
+      "text_density": 1.248018
+    }
+  },
+  {
+    "id": "science-technology-20",
+    "url": "https://youtube.com/shorts/fmWKS2oDY0s?si=rL0X2AZtZO080Pc1",
+    "category": "Science & Technology",
+    "duration_seconds": 60.181,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -1.103752,
+      "speech_load": -0.902955,
+      "music_salience": -0.150634,
+      "motion": -1.19899,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "how-to-style-1",
+    "url": "https://youtube.com/shorts/jDj7TQb2FGI?si=EOB1TGfgkfCg-Qed",
+    "category": "How-to & Style",
+    "duration_seconds": 122.155,
+    "features": {
+      "arousal": 2.946535,
+      "valence": 0.88832,
+      "cut_density": 1.720662,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": 0.099278,
+      "text_density": 0.337449
+    }
+  },
+  {
+    "id": "how-to-style-2",
+    "url": "https://youtube.com/shorts/0xD9aEs13C4?si=MIse1B7vXHDw8a6C",
+    "category": "How-to & Style",
+    "duration_seconds": 43.947,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 1.208716,
+      "speech_load": -1.330697,
+      "music_salience": -0.155823,
+      "motion": -0.437598,
+      "text_density": -0.670159
+    }
+  },
+  {
+    "id": "how-to-style-3",
+    "url": "https://youtube.com/shorts/inK6FOP5X1I?si=wtm-lF3_WlGwpaaP",
+    "category": "How-to & Style",
+    "duration_seconds": 25.813,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.646677,
+      "speech_load": -1.284763,
+      "music_salience": -0.041663,
+      "motion": -1.069552,
+      "text_density": -0.366173
+    }
+  },
+  {
+    "id": "how-to-style-4",
+    "url": "https://youtube.com/shorts/z8NqCkUQqsY?si=2LE25uQ4eZl7JnHe",
+    "category": "How-to & Style",
+    "duration_seconds": 15.317,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 1.4955,
+      "speech_load": -1.173939,
+      "music_salience": -0.277766,
+      "motion": -0.634575,
+      "text_density": -0.650334
+    }
+  },
+  {
+    "id": "how-to-style-5",
+    "url": "https://youtube.com/shorts/qVFChMSCVyo?si=KMMRdNMWrggVK1-O",
+    "category": "How-to & Style",
+    "duration_seconds": 154.453,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.420404,
+      "speech_load": 1.09212,
+      "music_salience": -0.290739,
+      "motion": -0.586418,
+      "text_density": 1.165935
+    }
+  },
+  {
+    "id": "how-to-style-6",
+    "url": "https://youtube.com/shorts/gnAqRNY6_hw?si=9LIUCHCCtOWQwTS8",
+    "category": "How-to & Style",
+    "duration_seconds": 25.045,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 0.330951,
+      "speech_load": -1.284034,
+      "music_salience": -0.036474,
+      "motion": -1.01126,
+      "text_density": -0.467733
+    }
+  },
+  {
+    "id": "how-to-style-7",
+    "url": "https://youtube.com/shorts/8zMowckwKK4?si=a1iYWhHJ5tcCVd6o",
+    "category": "How-to & Style",
+    "duration_seconds": 101.205,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 1.915816,
+      "cut_density": 0.60922,
+      "speech_load": 1.099654,
+      "music_salience": -0.288144,
+      "motion": 1.286274,
+      "text_density": -0.552251
+    }
+  },
+  {
+    "id": "how-to-style-8",
+    "url": "https://youtube.com/shorts/jGlorASY69g?si=yh1-iDldj5tNoOyI",
+    "category": "How-to & Style",
+    "duration_seconds": 80.085,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -0.107451,
+      "speech_load": 1.099654,
+      "music_salience": -0.223281,
+      "motion": -0.236976,
+      "text_density": 0.71552
+    }
+  },
+  {
+    "id": "how-to-style-9",
+    "url": "https://youtube.com/shorts/WUL-f_AW8Zc?si=Wknu5P-0BeoaG1S0",
+    "category": "How-to & Style",
+    "duration_seconds": 25.877,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": -0.163323,
+      "speech_load": -1.330697,
+      "music_salience": 10.925444,
+      "motion": 0.638851,
+      "text_density": 0.169109
+    }
+  },
+  {
+    "id": "how-to-style-10",
+    "url": "https://youtube.com/shorts/ChZH0eyjPe0?si=aqT475hLm9yhxu5Z",
+    "category": "How-to & Style",
+    "duration_seconds": 132.011,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 1.915816,
+      "cut_density": 1.08592,
+      "speech_load": 0.070644,
+      "music_salience": -0.072798,
+      "motion": 1.109812,
+      "text_density": -0.591206
+    }
+  },
+  {
+    "id": "how-to-style-11",
+    "url": "https://youtube.com/shorts/EPCrGPgbYSQ?si=zcjw_4c08JVd07mw",
+    "category": "How-to & Style",
+    "duration_seconds": 161.877,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": -0.13341,
+      "speech_load": 0.71736,
+      "music_salience": -0.246632,
+      "motion": 0.729268,
+      "text_density": -1.109097
+    }
+  },
+  {
+    "id": "how-to-style-12",
+    "url": "https://youtube.com/shorts/RLq3bGrPO-E?si=l2-8PAXYfhFRajU9",
+    "category": "How-to & Style",
+    "duration_seconds": 128.824,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -0.515313,
+      "speech_load": -1.321705,
+      "music_salience": 0.038768,
+      "motion": -0.956457,
+      "text_density": -0.46669
+    }
+  },
+  {
+    "id": "how-to-style-13",
+    "url": "https://youtube.com/shorts/eVl36Znr6_4?si=Nwa_QUIrh5FAZ8lv",
+    "category": "How-to & Style",
+    "duration_seconds": 122.183,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.912789,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": -1.193226,
+      "text_density": -0.510862
+    }
+  },
+  {
+    "id": "how-to-style-14",
+    "url": "https://youtube.com/shorts/QaBmK0Rs7cA?si=y4VY8Sx3Bf5kOEY2",
+    "category": "How-to & Style",
+    "duration_seconds": 70.699,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -1.175013,
+      "speech_load": 0.19046,
+      "music_salience": -0.018312,
+      "motion": -0.59322,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "how-to-style-15",
+    "url": "https://youtube.com/shorts/sdh2dbfEM20?si=XqETRS2qqqHt_8TW",
+    "category": "How-to & Style",
+    "duration_seconds": 62.059,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 1.025752,
+      "speech_load": 1.080698,
+      "music_salience": -0.295928,
+      "motion": -0.834968,
+      "text_density": 0.492573
+    }
+  },
+  {
+    "id": "how-to-style-16",
+    "url": "https://youtube.com/shorts/p9cSdcjI8QE?si=1OYwYtjvXDegd1J9",
+    "category": "How-to & Style",
+    "duration_seconds": 26.56,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 1.337691,
+      "speech_load": 0.834503,
+      "music_salience": -0.28555,
+      "motion": 0.040719,
+      "text_density": -0.271916
+    }
+  },
+  {
+    "id": "how-to-style-17",
+    "url": "https://youtube.com/shorts/yOH6lgHwADs?si=agGlBsGhY9KK9Rku",
+    "category": "How-to & Style",
+    "duration_seconds": 63.211,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.599396,
+      "speech_load": 1.06247,
+      "music_salience": -0.25701,
+      "motion": -0.610371,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "how-to-style-18",
+    "url": "https://youtube.com/shorts/759ltCNvZNM?si=AzBOV8TK3sH9MDLD",
+    "category": "How-to & Style",
+    "duration_seconds": 59.883,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 0.289919,
+      "speech_load": 1.099654,
+      "music_salience": -0.295928,
+      "motion": -0.960776,
+      "text_density": 0.842471
+    }
+  },
+  {
+    "id": "how-to-style-19",
+    "url": "https://youtube.com/shorts/5d9KNtJWjvs?si=35f-yHxpIWjtRrhr",
+    "category": "How-to & Style",
+    "duration_seconds": 64.448,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.15416,
+      "speech_load": 1.009002,
+      "music_salience": -0.280361,
+      "motion": -0.905766,
+      "text_density": 0.51692
+    }
+  },
+  {
+    "id": "how-to-style-20",
+    "url": "https://youtube.com/shorts/rbhe3Q4bEyY?si=IyQ5gczFLgQHF9QS",
+    "category": "How-to & Style",
+    "duration_seconds": 178.887,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.737168,
+      "speech_load": 0.975463,
+      "music_salience": -0.280361,
+      "motion": -0.454172,
+      "text_density": -0.059055
+    }
+  },
+  {
+    "id": "travel-events-1",
+    "url": "https://youtube.com/shorts/fguUIvQrGEU?si=jV5YAUA4jJ7CtTJ_",
+    "category": "Travel & Events",
+    "duration_seconds": 7.915,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": -0.602717,
+      "speech_load": 1.099654,
+      "music_salience": -0.290739,
+      "motion": -0.384952,
+      "text_density": 0.871339
+    }
+  },
+  {
+    "id": "travel-events-2",
+    "url": "https://youtube.com/shorts/1mZmQ7jFgA4?si=aj5viGVFnjdFSaSb",
+    "category": "Travel & Events",
+    "duration_seconds": 9.218,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": 0.80775,
+      "speech_load": -1.330697,
+      "music_salience": -0.015718,
+      "motion": 0.123357,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "travel-events-3",
+    "url": "https://youtube.com/shorts/JSUj8NfVuX4?si=_pcIQPiuitgd0vqh",
+    "category": "Travel & Events",
+    "duration_seconds": 11.776,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.652924,
+      "cut_density": 0.074241,
+      "speech_load": -1.330697,
+      "music_salience": -0.254415,
+      "motion": 1.699699,
+      "text_density": 0.436575
+    }
+  },
+  {
+    "id": "travel-events-4",
+    "url": "https://youtube.com/shorts/2NwyHtIGaBc?si=xWiMROH77YCMd2Uv",
+    "category": "Travel & Events",
+    "duration_seconds": 14.768,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": -1.164054,
+      "speech_load": -1.330697,
+      "music_salience": -0.28555,
+      "motion": 1.822625,
+      "text_density": -1.07049
+    }
+  },
+  {
+    "id": "travel-events-5",
+    "url": "https://youtube.com/shorts/sabOsHyHwX0?si=BOKcH9tM-K4z18HQ",
+    "category": "Travel & Events",
+    "duration_seconds": 22.477,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": 4.125058,
+      "speech_load": -1.330697,
+      "music_salience": -0.106527,
+      "motion": 0.280667,
+      "text_density": 1.117241
+    }
+  },
+  {
+    "id": "travel-events-6",
+    "url": "https://youtube.com/shorts/640CvCp5uj4?si=bFBuUvqx1QonweEg",
+    "category": "Travel & Events",
+    "duration_seconds": 13.397,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": 1.303471,
+      "speech_load": 0.379541,
+      "music_salience": -0.119499,
+      "motion": -1.074204,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "travel-events-7",
+    "url": "https://youtube.com/shorts/ZRBuzi-ozII?si=wZUMqwEwA6Ndv4Xn",
+    "category": "Travel & Events",
+    "duration_seconds": 15.104,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 0.374572,
+      "cut_density": -0.508267,
+      "speech_load": -1.330697,
+      "music_salience": -0.254415,
+      "motion": 1.386611,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "travel-events-8",
+    "url": "https://youtube.com/shorts/at1bIJuoiI0?si=SbPN67KipQqZvruK",
+    "category": "Travel & Events",
+    "duration_seconds": 8.267,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.652924,
+      "cut_density": 3.707182,
+      "speech_load": -1.330697,
+      "music_salience": -0.184363,
+      "motion": 0.102983,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "travel-events-9",
+    "url": "https://youtube.com/shorts/K58gqnmrlgE?si=vXpWykim81I7KtT7",
+    "category": "Travel & Events",
+    "duration_seconds": 54.985,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.493407,
+      "speech_load": 1.035736,
+      "music_salience": -0.238848,
+      "motion": 1.123111,
+      "text_density": 0.973943
+    }
+  },
+  {
+    "id": "travel-events-10",
+    "url": "https://youtube.com/shorts/o5QUGjPJmDk?si=XQs6JtAXExxldH42",
+    "category": "Travel & Events",
+    "duration_seconds": 58.923,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.139176,
+      "cut_density": 0.424565,
+      "speech_load": 0.800721,
+      "music_salience": -0.036474,
+      "motion": 1.549375,
+      "text_density": -0.1234
+    }
+  },
+  {
+    "id": "travel-events-11",
+    "url": "https://youtube.com/shorts/2jA5c8jtFjg?si=OARJFbvtbzyVfksn",
+    "category": "Travel & Events",
+    "duration_seconds": 57.121,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.139176,
+      "cut_density": 0.791504,
+      "speech_load": 1.099654,
+      "music_salience": -0.288144,
+      "motion": 1.13475,
+      "text_density": 0.736388
+    }
+  },
+  {
+    "id": "travel-events-12",
+    "url": "https://youtube.com/shorts/QhMUCoLpeFs?si=Wm1BsRDOWZjN5CAG",
+    "category": "Travel & Events",
+    "duration_seconds": 34.645,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.88832,
+      "cut_density": 0.276096,
+      "speech_load": 0.897206,
+      "music_salience": -0.212903,
+      "motion": 2.6741,
+      "text_density": 0.486312
+    }
+  },
+  {
+    "id": "travel-events-13",
+    "url": "https://youtube.com/shorts/kcs7ccqGAyI?si=nDWJp-HTfJVgAG73",
+    "category": "Travel & Events",
+    "duration_seconds": 59.285,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.374572,
+      "cut_density": -0.293917,
+      "speech_load": 1.099654,
+      "music_salience": -0.272577,
+      "motion": 0.643119,
+      "text_density": 0.088764
+    }
+  },
+  {
+    "id": "travel-events-14",
+    "url": "https://youtube.com/shorts/d0vBhuwPtVA?si=zuhSvr3bt6xXO1ce",
+    "category": "Travel & Events",
+    "duration_seconds": 50.816,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": 0.289556,
+      "speech_load": 1.030146,
+      "music_salience": -0.280361,
+      "motion": 0.597629,
+      "text_density": 1.152718
+    }
+  },
+  {
+    "id": "travel-events-15",
+    "url": "https://youtube.com/shorts/cPGeYvZw3rs?si=4O-XUxvw0WMietU4",
+    "category": "Travel & Events",
+    "duration_seconds": 44.885,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 1.707701,
+      "speech_load": 0.838392,
+      "music_salience": -0.282955,
+      "motion": 1.536313,
+      "text_density": 1.09359
+    }
+  },
+  {
+    "id": "travel-events-16",
+    "url": "https://youtube.com/shorts/KGel-QcLR1Y?si=TNgURlgP044Z949d",
+    "category": "Travel & Events",
+    "duration_seconds": 69.172,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.769185,
+      "speech_load": -1.195569,
+      "music_salience": -0.083176,
+      "motion": 1.288334,
+      "text_density": 0.784386
+    }
+  },
+  {
+    "id": "travel-events-17",
+    "url": "https://youtube.com/shorts/cl3LBbZX5hM?si=fYyWVnfj6uIlL3IO",
+    "category": "Travel & Events",
+    "duration_seconds": 84.224,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": 1.373316,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": 0.014944,
+      "text_density": 0.252583
+    }
+  },
+  {
+    "id": "travel-events-18",
+    "url": "https://youtube.com/shorts/97xaR2Eipis?si=Eq-2gSzuMhiPmEe-",
+    "category": "Travel & Events",
+    "duration_seconds": 57.685,
+    "features": {
+      "arousal": 1.4018,
+      "valence": 1.402068,
+      "cut_density": 1.658108,
+      "speech_load": 0.532653,
+      "music_salience": -0.25701,
+      "motion": 0.716718,
+      "text_density": 0.136762
+    }
+  },
+  {
+    "id": "travel-events-19",
+    "url": "https://youtube.com/shorts/HOOrxOk_rug?si=hVaqYinim7X5V6Kh",
+    "category": "Travel & Events",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -0.652924,
+      "cut_density": 0.716699,
+      "speech_load": 1.079968,
+      "music_salience": -0.293333,
+      "motion": 1.218699,
+      "text_density": -0.200962
+    }
+  },
+  {
+    "id": "travel-events-20",
+    "url": "https://youtube.com/shorts/8MOtFpuHdKo?si=ug5z8Z_Fvu-AVIIR",
+    "category": "Travel & Events",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": 1.4018,
+      "valence": -0.652924,
+      "cut_density": -1.185811,
+      "speech_load": 0.531195,
+      "music_salience": -0.267388,
+      "motion": 2.94818,
+      "text_density": 0.03068
+    }
+  },
+  {
+    "id": "comedy-1",
+    "url": "https://youtube.com/shorts/xQ_VSabaNd0?si=AAZ_v50owpWU5tF5",
+    "category": "Comedy",
+    "duration_seconds": 85.461,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.915816,
+      "cut_density": 0.466241,
+      "speech_load": 0.69014,
+      "music_salience": -0.269982,
+      "motion": 0.884311,
+      "text_density": 0.234497
+    }
+  },
+  {
+    "id": "comedy-2",
+    "url": "https://youtube.com/shorts/vMWl_M7s-f4?si=rn4x49V5euryJZQN",
+    "category": "Comedy",
+    "duration_seconds": 58.773,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 1.915816,
+      "cut_density": -0.980359,
+      "speech_load": -0.294881,
+      "music_salience": 0.171089,
+      "motion": -0.529949,
+      "text_density": 0.289103
+    }
+  },
+  {
+    "id": "comedy-3",
+    "url": "https://youtube.com/shorts/w7SnFIy3KiU?si=UCIpk11mFwcZuIRk",
+    "category": "Comedy",
+    "duration_seconds": 12.053,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -1.708498,
+      "speech_load": -1.330697,
+      "music_salience": 0.10882,
+      "motion": -1.461239,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "comedy-4",
+    "url": "https://youtube.com/shorts/Pp8QSAieNrM?si=L_x1WarK_TvlRp5z",
+    "category": "Comedy",
+    "duration_seconds": 34.581,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.915816,
+      "cut_density": -0.168766,
+      "speech_load": -0.486879,
+      "music_salience": -0.262199,
+      "motion": -1.098076,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "comedy-5",
+    "url": "https://youtube.com/shorts/Mrp2_cdGwEQ?si=3W1PDsafavM69hzN",
+    "category": "Comedy",
+    "duration_seconds": 18.344,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": 1.107708,
+      "speech_load": -0.819108,
+      "music_salience": 0.510973,
+      "motion": -1.514293,
+      "text_density": -0.936235
+    }
+  },
+  {
+    "id": "comedy-6",
+    "url": "https://youtube.com/shorts/3Ip1o0j-zg4?si=2HTOq5sC79H6vXIS",
+    "category": "Comedy",
+    "duration_seconds": 105.79,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 0.88832,
+      "cut_density": -1.245185,
+      "speech_load": -0.060352,
+      "music_salience": -0.25701,
+      "motion": 0.692165,
+      "text_density": -0.54773
+    }
+  },
+  {
+    "id": "comedy-7",
+    "url": "https://youtube.com/shorts/HvVGonW6nyM?si=hUWgVPRQH7xpQCcn",
+    "category": "Comedy",
+    "duration_seconds": 59.541,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.654886,
+      "speech_load": -1.330697,
+      "music_salience": -0.116905,
+      "motion": -0.599184,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "comedy-8",
+    "url": "https://youtube.com/shorts/9jlN2txs7Ms?si=qTewxAhfNav7_4-8",
+    "category": "Comedy",
+    "duration_seconds": 48.555,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": -0.218468,
+      "speech_load": 1.099654,
+      "music_salience": -0.301117,
+      "motion": -0.35179,
+      "text_density": -0.734504
+    }
+  },
+  {
+    "id": "comedy-9",
+    "url": "https://youtube.com/shorts/tPX7IMMrTCg?si=WGCIMlXmUkLxwvtg",
+    "category": "Comedy",
+    "duration_seconds": 15.147,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 1.915816,
+      "cut_density": 0.171051,
+      "speech_load": 0.864396,
+      "music_salience": -0.301117,
+      "motion": -0.064056,
+      "text_density": -0.650334
+    }
+  },
+  {
+    "id": "comedy-10",
+    "url": "https://youtube.com/shorts/O0G2RAHs-ew?si=AkDaXooOiNmsiKSJ",
+    "category": "Comedy",
+    "duration_seconds": 17.624,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.802984,
+      "speech_load": 0.55963,
+      "music_salience": -0.295928,
+      "motion": -1.433522,
+      "text_density": 1.595829
+    }
+  },
+  {
+    "id": "comedy-11",
+    "url": "https://youtube.com/shorts/gOBwrMMEdc4?si=3OKGGqpqioVb_Hdl",
+    "category": "Comedy",
+    "duration_seconds": 28.212,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -1.833789,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": -0.61046,
+      "text_density": 0.976378
+    }
+  },
+  {
+    "id": "comedy-12",
+    "url": "https://youtube.com/shorts/oPynMCogT_4?si=xz1jVlzUr36Wb5La",
+    "category": "Comedy",
+    "duration_seconds": 59.755,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": -1.006453,
+      "speech_load": 0.825268,
+      "music_salience": -0.295928,
+      "motion": -0.961658,
+      "text_density": 0.49466
+    }
+  },
+  {
+    "id": "comedy-13",
+    "url": "https://youtube.com/shorts/WUgakH3CUwI?si=--Lbv7GgKW7RljSv",
+    "category": "Comedy",
+    "duration_seconds": 41.6,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 0.548751,
+      "speech_load": 1.071462,
+      "music_salience": -0.303711,
+      "motion": 0.184931,
+      "text_density": -0.474342
+    }
+  },
+  {
+    "id": "comedy-14",
+    "url": "https://youtube.com/shorts/JVhAf1FTw1c?si=YiyoNNapzLXBbzkT",
+    "category": "Comedy",
+    "duration_seconds": 35.503,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.084958,
+      "speech_load": 0.766696,
+      "music_salience": -0.295928,
+      "motion": -1.048229,
+      "text_density": 0.533267
+    }
+  },
+  {
+    "id": "comedy-15",
+    "url": "https://youtube.com/shorts/D8O-1JkZ8Yg?si=R-TyMcFv6VBvXQtZ",
+    "category": "Comedy",
+    "duration_seconds": 37.547,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -1.325713,
+      "speech_load": 0.881652,
+      "music_salience": -0.301117,
+      "motion": -0.18716,
+      "text_density": 1.077243
+    }
+  },
+  {
+    "id": "comedy-16",
+    "url": "https://youtube.com/shorts/mKAi-q8N1KQ?si=DEQ_WesfoT07Q_Bw",
+    "category": "Comedy",
+    "duration_seconds": 17.963,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -1.125155,
+      "speech_load": 0.968172,
+      "music_salience": -0.301117,
+      "motion": -0.578128,
+      "text_density": 0.629958
+    }
+  },
+  {
+    "id": "comedy-17",
+    "url": "https://youtube.com/shorts/_eBEfX91aTA?si=DpJPUGmF0gTpAJp9",
+    "category": "Comedy",
+    "duration_seconds": 17.995,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -1.992786,
+      "speech_load": 0.836933,
+      "music_salience": 0.075091,
+      "motion": 0.230562,
+      "text_density": 0.436575
+    }
+  },
+  {
+    "id": "comedy-18",
+    "url": "https://youtube.com/shorts/XIJwdF_pJ7c?si=9qu4yLUYbBFwVdzg",
+    "category": "Comedy",
+    "duration_seconds": 19.319,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.957975,
+      "speech_load": 0.188273,
+      "music_salience": -0.109121,
+      "motion": 0.895795,
+      "text_density": -0.259047
+    }
+  },
+  {
+    "id": "comedy-19",
+    "url": "https://youtube.com/shorts/xMOA0WWhmCo?si=4y52jnMbNCo8VrP_",
+    "category": "Comedy",
+    "duration_seconds": 31.254,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -1.739371,
+      "speech_load": 0.351835,
+      "music_salience": -0.25701,
+      "motion": 0.042097,
+      "text_density": -0.432952
+    }
+  },
+  {
+    "id": "comedy-20",
+    "url": "https://youtube.com/shorts/68KlxOuqPng?si=9YIT27lDuVOhfQ2Q",
+    "category": "Comedy",
+    "duration_seconds": 49.76,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": 0.87157,
+      "speech_load": 0.816518,
+      "music_salience": -0.277766,
+      "motion": 1.292009,
+      "text_density": 0.645262
+    }
+  },
+  {
+    "id": "nonprofits-activism-1",
+    "url": "https://youtube.com/shorts/SsjKIqD2VeA?si=gzy7Wvk0dM_oKmmc",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 32.183,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.795974,
+      "speech_load": -1.330697,
+      "music_salience": -0.119499,
+      "motion": 0.641363,
+      "text_density": -0.037839
+    }
+  },
+  {
+    "id": "nonprofits-activism-2",
+    "url": "https://youtube.com/shorts/k9amNsqIirg?si=b7EbMN3_oJxPuG0r",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 15.813,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": 0.383741,
+      "speech_load": 0.79586,
+      "music_salience": -0.298522,
+      "motion": 1.935809,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "nonprofits-activism-3",
+    "url": "https://youtube.com/shorts/Ilg8P0XXaAY?si=u4PMkLRyGBH_FS1Q",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 51.897,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": -0.669806,
+      "speech_load": 0.154491,
+      "music_salience": -0.277766,
+      "motion": 1.765044,
+      "text_density": -0.767546
+    }
+  },
+  {
+    "id": "nonprofits-activism-4",
+    "url": "https://youtube.com/shorts/9cvH2yniHu4?si=ecIsYfjNi311YKnc",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 24.427,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": 1.6788,
+      "speech_load": 0.905226,
+      "music_salience": -0.288144,
+      "motion": -0.228286,
+      "text_density": -0.467733
+    }
+  },
+  {
+    "id": "nonprofits-activism-5",
+    "url": "https://youtube.com/shorts/Ivf0V4tSMoM?si=xw4gFsnsfuqbJ8RV",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 95.104,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -2.194168,
+      "cut_density": 0.267566,
+      "speech_load": 1.01362,
+      "music_salience": -0.295928,
+      "motion": 1.207267,
+      "text_density": 0.455009
+    }
+  },
+  {
+    "id": "nonprofits-activism-6",
+    "url": "https://youtube.com/shorts/8_8oxpZ0IlM?si=r2_Pi7jplQkk6ows",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 51.223,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -0.442246,
+      "speech_load": 1.076809,
+      "music_salience": -0.298522,
+      "motion": -1.243554,
+      "text_density": -1.2357
+    }
+  },
+  {
+    "id": "nonprofits-activism-7",
+    "url": "https://youtube.com/shorts/WHFZ7u5dt9g?si=lEtWoUpGjPSFBuMj",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 53.359,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -2.194168,
+      "cut_density": -1.305327,
+      "speech_load": 0.596086,
+      "music_salience": -0.277766,
+      "motion": -0.21126,
+      "text_density": -0.465299
+    }
+  },
+  {
+    "id": "nonprofits-activism-8",
+    "url": "https://youtube.com/shorts/J39HNpV8gbc?si=dIkJGbHnUHwLxTwo",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 56.935,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.655657,
+      "speech_load": 0.955534,
+      "music_salience": -0.17139,
+      "motion": 1.137669,
+      "text_density": -0.082011
+    }
+  },
+  {
+    "id": "nonprofits-activism-9",
+    "url": "https://youtube.com/shorts/P4m8qE28jNk?si=mXr1F5t44_RS8MZg",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 20.016,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -1.532524,
+      "speech_load": -1.330697,
+      "music_salience": 6.289007,
+      "motion": 0.05061,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "nonprofits-activism-10",
+    "url": "https://youtube.com/shorts/7cufpsZ1Vps?si=qHhjMuSf468kJeJ6",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 60.096,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 1.833885,
+      "speech_load": -1.311254,
+      "music_salience": -0.212903,
+      "motion": 1.612482,
+      "text_density": -1.188398
+    }
+  },
+  {
+    "id": "nonprofits-activism-11",
+    "url": "https://youtube.com/shorts/b_aW60ItneY?si=qAVWMjUXNpNQIivV",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 59.243,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 0.408392,
+      "speech_load": 1.020668,
+      "music_salience": -0.28555,
+      "motion": 0.536159,
+      "text_density": 0.842471
+    }
+  },
+  {
+    "id": "nonprofits-activism-12",
+    "url": "https://youtube.com/shorts/NEDS3QczKjA?si=NnqEf-LMM0iLUcGA",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 34.837,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.484285,
+      "speech_load": -1.330697,
+      "music_salience": -0.269982,
+      "motion": 1.415809,
+      "text_density": 0.684912
+    }
+  },
+  {
+    "id": "nonprofits-activism-13",
+    "url": "https://youtube.com/shorts/ZGUyWKQJXTA?si=FZ2RRZp1fiMRqDrA",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 58.795,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.274927,
+      "speech_load": -1.171266,
+      "music_salience": -0.225875,
+      "motion": 1.136802,
+      "text_density": -0.948756
+    }
+  },
+  {
+    "id": "nonprofits-activism-14",
+    "url": "https://youtube.com/shorts/k9p450LsjI0?si=unlgitO6SLLWjGI8",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 58.859,
+    "features": {
+      "arousal": 0.886888,
+      "valence": 0.88832,
+      "cut_density": 1.133059,
+      "speech_load": 0.621604,
+      "music_salience": -0.244037,
+      "motion": 1.967489,
+      "text_density": 0.289103
+    }
+  },
+  {
+    "id": "nonprofits-activism-15",
+    "url": "https://youtube.com/shorts/W8UxMYYpi4I?si=dqIt6ZbYQdsmI2LP",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 59.559,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.828136,
+      "speech_load": 0.002108,
+      "music_salience": -0.246632,
+      "motion": 0.660774,
+      "text_density": 0.900207
+    }
+  },
+  {
+    "id": "nonprofits-activism-16",
+    "url": "https://youtube.com/shorts/KUCKyZO7_x4?si=5GMf5ctmDkpqpAbv",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 22.848,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.752721,
+      "speech_load": -1.330697,
+      "music_salience": -0.280361,
+      "motion": 1.121177,
+      "text_density": 1.117241
+    }
+  },
+  {
+    "id": "nonprofits-activism-17",
+    "url": "https://youtube.com/shorts/S9mX9vUSFAw?si=QqAdnzhS-VBK5kZS",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 15.116,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": -0.166675,
+      "speech_load": -1.173939,
+      "music_salience": -0.290739,
+      "motion": 1.379632,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "nonprofits-activism-18",
+    "url": "https://youtube.com/shorts/NiElw2aKKns?si=0wLgpqGBF2hpTy3q",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 46.144,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.432984,
+      "speech_load": 0.947757,
+      "music_salience": -0.272577,
+      "motion": -1.125369,
+      "text_density": 0.10372
+    }
+  },
+  {
+    "id": "nonprofits-activism-19",
+    "url": "https://youtube.com/shorts/S9E23pPljMs?si=1xsRoRbJqQJ4jCi1",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 60.0,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -0.580467,
+      "speech_load": -1.311011,
+      "music_salience": -0.106527,
+      "motion": 2.140076,
+      "text_density": -0.664942
+    }
+  },
+  {
+    "id": "nonprofits-activism-20",
+    "url": "https://youtube.com/shorts/cN2jC0VNE1g?si=32hpQSE-wwxlhYpM",
+    "category": "Nonprofits & Activism",
+    "duration_seconds": 59.699,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": -0.048923,
+      "speech_load": 0.66851,
+      "music_salience": -0.192146,
+      "motion": 0.042016,
+      "text_density": 1.016376
+    }
+  },
+  {
+    "id": "people-blogs-1",
+    "url": "https://youtube.com/shorts/KfkTJ_zQqsE?si=pzeFlR4uIX_o-SJT",
+    "category": "People & Blogs",
+    "duration_seconds": 64.512,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -1.166672,
+      "cut_density": -0.317417,
+      "speech_load": 0.97279,
+      "music_salience": -0.277766,
+      "motion": -0.891734,
+      "text_density": 0.302668
+    }
+  },
+  {
+    "id": "people-blogs-2",
+    "url": "https://youtube.com/shorts/t4icZ35w8RA?si=lzRrdoempOnV-Rwn",
+    "category": "People & Blogs",
+    "duration_seconds": 64.427,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -1.200334,
+      "speech_load": 1.026987,
+      "music_salience": -0.25701,
+      "motion": -0.62058,
+      "text_density": 1.212542
+    }
+  },
+  {
+    "id": "people-blogs-3",
+    "url": "https://youtube.com/shorts/C-sRawuQhLM?si=eJYjICdTwM3Tk3RF",
+    "category": "People & Blogs",
+    "duration_seconds": 13.163,
+    "features": {
+      "arousal": 0.886888,
+      "valence": -1.166672,
+      "cut_density": -1.386862,
+      "speech_load": -1.330697,
+      "music_salience": 0.407192,
+      "motion": -1.514604,
+      "text_density": 1.430271
+    }
+  },
+  {
+    "id": "people-blogs-4",
+    "url": "https://youtube.com/shorts/3mCXbZerPuw?si=Z3jnr-gyYat0mcMA",
+    "category": "People & Blogs",
+    "duration_seconds": 90.976,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": -0.573271,
+      "speech_load": 0.971089,
+      "music_salience": -0.298522,
+      "motion": 0.274229,
+      "text_density": -0.155747
+    }
+  },
+  {
+    "id": "people-blogs-5",
+    "url": "https://youtube.com/shorts/QRXkePfZBlQ?si=kx0tbNkJc-kKrITq",
+    "category": "People & Blogs",
+    "duration_seconds": 26.859,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 1.915816,
+      "cut_density": 0.907876,
+      "speech_load": 0.790271,
+      "music_salience": -0.301117,
+      "motion": 0.79954,
+      "text_density": -0.143226
+    }
+  },
+  {
+    "id": "people-blogs-6",
+    "url": "Https://youtube.com/shorts/0Alnv81jzaU?si=nAkwn28Twn6FVYii",
+    "category": "People & Blogs",
+    "duration_seconds": 60.885,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.139176,
+      "cut_density": 0.157607,
+      "speech_load": -0.75203,
+      "music_salience": -0.137661,
+      "motion": -0.088986,
+      "text_density": -1.131357
+    }
+  },
+  {
+    "id": "people-blogs-7",
+    "url": "https://youtube.com/shorts/HtMq9hANAXU?si=5tfIQgenh9li9Qzg",
+    "category": "People & Blogs",
+    "duration_seconds": 59.797,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.374572,
+      "cut_density": 0.207227,
+      "speech_load": -1.311011,
+      "music_salience": 0.261898,
+      "motion": 0.225131,
+      "text_density": 0.784386
+    }
+  },
+  {
+    "id": "people-blogs-8",
+    "url": "https://youtube.com/shorts/zkqUGKHR3rs?si=qFgn5PGOaLcGAf8B",
+    "category": "People & Blogs",
+    "duration_seconds": 36.352,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": 0.71344,
+      "speech_load": -0.423447,
+      "music_salience": -0.25701,
+      "motion": -0.291201,
+      "text_density": 0.013637
+    }
+  },
+  {
+    "id": "people-blogs-9",
+    "url": "https://youtube.com/shorts/LGZ5aWWYsaU?si=dD82gWzQ-aPA-Qul",
+    "category": "People & Blogs",
+    "duration_seconds": 133.504,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.374572,
+      "cut_density": 1.12276,
+      "speech_load": 0.662434,
+      "music_salience": -0.127283,
+      "motion": -0.342914,
+      "text_density": -0.342174
+    }
+  },
+  {
+    "id": "people-blogs-10",
+    "url": "https://youtube.com/shorts/ItkD331CY38?si=xD3U8pn-RlIjUiHM",
+    "category": "People & Blogs",
+    "duration_seconds": 35.541,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -0.139176,
+      "cut_density": 1.080301,
+      "speech_load": 1.099654,
+      "music_salience": -0.303711,
+      "motion": 0.233532,
+      "text_density": -1.012753
+    }
+  },
+  {
+    "id": "people-blogs-11",
+    "url": "https://youtu.be/VYt6m_dRSJQ?si=5Mx9vz4FD7bnfUDJ",
+    "category": "People & Blogs",
+    "duration_seconds": 37.675,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.88832,
+      "cut_density": -0.365874,
+      "speech_load": -1.081343,
+      "music_salience": -0.251821,
+      "motion": -0.209312,
+      "text_density": 0.710998
+    }
+  },
+  {
+    "id": "people-blogs-12",
+    "url": "https://youtube.com/shorts/Xx60YKY1dW0?si=nAuTczmRIyPbzJwo",
+    "category": "People & Blogs",
+    "duration_seconds": 8.811,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": -0.213814,
+      "speech_load": -1.330697,
+      "music_salience": 0.824912,
+      "motion": -0.754331,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "people-blogs-13",
+    "url": "https://youtube.com/shorts/1KLeJxqH4cg?si=stcdLVgUoomif25N",
+    "category": "People & Blogs",
+    "duration_seconds": 35.392,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 1.915816,
+      "cut_density": 0.069462,
+      "speech_load": 1.066358,
+      "music_salience": -0.301117,
+      "motion": -0.040288,
+      "text_density": -0.336261
+    }
+  },
+  {
+    "id": "people-blogs-14",
+    "url": "https://youtube.com/shorts/Eh_DfVlSxMM?si=CGkfVZQ-Yeh39QOi",
+    "category": "People & Blogs",
+    "duration_seconds": 19.925,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": 0.295019,
+      "speech_load": -1.330697,
+      "music_salience": 3.549176,
+      "motion": -0.866455,
+      "text_density": -0.954669
+    }
+  },
+  {
+    "id": "people-blogs-15",
+    "url": "https://youtube.com/shorts/eTSM4M3xTQg?si=y_uZlXesecJ5i8gF",
+    "category": "People & Blogs",
+    "duration_seconds": 27.904,
+    "features": {
+      "arousal": -0.142935,
+      "valence": -0.139176,
+      "cut_density": 2.079242,
+      "speech_load": -1.163003,
+      "music_salience": -0.272577,
+      "motion": -0.074806,
+      "text_density": 0.06407
+    }
+  },
+  {
+    "id": "people-blogs-16",
+    "url": "https://youtube.com/shorts/RtJP6hkh61c?si=6HXvIFBuNjBphg0N",
+    "category": "People & Blogs",
+    "duration_seconds": 45.248,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": 0.985384,
+      "speech_load": -1.330697,
+      "music_salience": 4.31197,
+      "motion": -0.860758,
+      "text_density": -1.151182
+    }
+  },
+  {
+    "id": "people-blogs-17",
+    "url": "https://youtube.com/shorts/BO2oAdShFaQ?si=EBstAJ4ae5hW6lZX",
+    "category": "People & Blogs",
+    "duration_seconds": 7.424,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -2.194168,
+      "cut_density": 3.021803,
+      "speech_load": -1.330697,
+      "music_salience": 0.931288,
+      "motion": -1.514752,
+      "text_density": -0.867716
+    }
+  },
+  {
+    "id": "people-blogs-18",
+    "url": "https://youtube.com/shorts/PDNBvd43IFk?si=-k8wBkyqc5TOSQRi",
+    "category": "People & Blogs",
+    "duration_seconds": 24.981,
+    "features": {
+      "arousal": -0.657847,
+      "valence": -1.166672,
+      "cut_density": 2.415407,
+      "speech_load": -1.330697,
+      "music_salience": -0.14285,
+      "motion": -0.525674,
+      "text_density": 2.036506
+    }
+  },
+  {
+    "id": "people-blogs-19",
+    "url": "https://youtube.com/shorts/lI9SY3HWPdk?si=XjqDuBFk5_nPHJsj",
+    "category": "People & Blogs",
+    "duration_seconds": 59.392,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 1.402068,
+      "cut_density": -1.171635,
+      "speech_load": 1.000739,
+      "music_salience": -0.298522,
+      "motion": -1.102491,
+      "text_density": -0.259047
+    }
+  },
+  {
+    "id": "people-blogs-20",
+    "url": "https://youtube.com/shorts/Y_QXALGfxUo?si=699jbMUjRqbV1hsY",
+    "category": "People & Blogs",
+    "duration_seconds": 86.059,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -1.166672,
+      "cut_density": 1.16868,
+      "speech_load": 0.882381,
+      "music_salience": 0.005039,
+      "motion": -0.637687,
+      "text_density": 0.396229
+    }
+  },
+  {
+    "id": "entertainment-1",
+    "url": "https://youtube.com/shorts/qDCxpsSTNzQ?si=6Iwf34IfFnr7N_m1",
+    "category": "Entertainment",
+    "duration_seconds": 30.186,
+    "features": {
+      "arousal": 2.431623,
+      "valence": -0.139176,
+      "cut_density": 2.415381,
+      "speech_load": -1.252197,
+      "music_salience": -0.168795,
+      "motion": 0.047017,
+      "text_density": 1.614611
+    }
+  },
+  {
+    "id": "entertainment-2",
+    "url": "https://youtube.com/shorts/KhFsmt0_Rgs?si=n3hNc12y2EztOpmX",
+    "category": "Entertainment",
+    "duration_seconds": 48.981,
+    "features": {
+      "arousal": 1.4018,
+      "valence": -0.652924,
+      "cut_density": -0.027084,
+      "speech_load": 0.55161,
+      "music_salience": -0.233659,
+      "motion": -1.58887,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "entertainment-3",
+    "url": "https://youtube.com/shorts/pkc6KNwVYXM?si=oiIj3H7SMYc7ng-n",
+    "category": "Entertainment",
+    "duration_seconds": 33.408,
+    "features": {
+      "arousal": 1.916711,
+      "valence": 1.402068,
+      "cut_density": 0.692115,
+      "speech_load": -0.098023,
+      "music_salience": -0.272577,
+      "motion": -0.048142,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "entertainment-4",
+    "url": "https://youtube.com/shorts/c3MuRW-R4pU?si=AfXkPkVwp96PfMcn",
+    "category": "Entertainment",
+    "duration_seconds": 57.813,
+    "features": {
+      "arousal": 0.371976,
+      "valence": 0.374572,
+      "cut_density": -0.684724,
+      "speech_load": -1.330697,
+      "music_salience": -0.277766,
+      "motion": -0.209897,
+      "text_density": 0.856383
+    }
+  },
+  {
+    "id": "entertainment-5",
+    "url": "https://youtube.com/shorts/eGQVoEJGH8I?si=o4KQybX2h_zY7vjc",
+    "category": "Entertainment",
+    "duration_seconds": 34.069,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.132684,
+      "speech_load": -0.844627,
+      "music_salience": 0.280059,
+      "motion": -0.311353,
+      "text_density": 0.232062
+    }
+  },
+  {
+    "id": "entertainment-6",
+    "url": "https://youtube.com/shorts/3J8AbNMbJww?si=iXpiuty1lIcu4vIz",
+    "category": "Entertainment",
+    "duration_seconds": 7.552,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -0.508267,
+      "speech_load": -1.006731,
+      "music_salience": -0.288144,
+      "motion": 0.779211,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "entertainment-7",
+    "url": "https://youtube.com/shorts/Z5VK3_yHO9c?si=c2F5jX7FlNWtD3y2",
+    "category": "Entertainment",
+    "duration_seconds": 59.477,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 1.402068,
+      "cut_density": -0.911931,
+      "speech_load": 0.724165,
+      "music_salience": -0.295928,
+      "motion": 0.237578,
+      "text_density": 0.204585
+    }
+  },
+  {
+    "id": "entertainment-8",
+    "url": "https://youtube.com/shorts/TRw-Ep09p20?si=uajaoaO08kso1odC",
+    "category": "Entertainment",
+    "duration_seconds": 46.827,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": 0.533123,
+      "speech_load": 1.074622,
+      "music_salience": -0.295928,
+      "motion": -0.63951,
+      "text_density": 0.621611
+    }
+  },
+  {
+    "id": "entertainment-9",
+    "url": "https://youtube.com/shorts/o6wix_PRENs?si=qHAwmUJ1Y3SH5_97",
+    "category": "Entertainment",
+    "duration_seconds": 82.901,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 1.123279,
+      "speech_load": -0.765397,
+      "music_salience": 0.334545,
+      "motion": 0.920288,
+      "text_density": -1.134835
+    }
+  },
+  {
+    "id": "entertainment-10",
+    "url": "https://youtube.com/shorts/6hd8RFe8yDw?si=Oz2Dbt2YD6GUvKEu",
+    "category": "Entertainment",
+    "duration_seconds": 36.587,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 1.402068,
+      "cut_density": -0.016706,
+      "speech_load": 0.811901,
+      "music_salience": -0.293333,
+      "motion": 0.052181,
+      "text_density": 0.013637
+    }
+  },
+  {
+    "id": "entertainment-11",
+    "url": "https://youtube.com/shorts/uJbm-bxuUdI?si=HXZ7rMTw8TipVFTL",
+    "category": "Entertainment",
+    "duration_seconds": 119.723,
+    "features": {
+      "arousal": -0.657847,
+      "valence": 0.88832,
+      "cut_density": 1.071044,
+      "speech_load": 0.884811,
+      "music_salience": -0.280361,
+      "motion": 0.224109,
+      "text_density": 0.639349
+    }
+  },
+  {
+    "id": "entertainment-12",
+    "url": "https://youtube.com/shorts/6c7VMtm38tU?si=KXC9RLf1Q4D1-cbS",
+    "category": "Entertainment",
+    "duration_seconds": 82.432,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.652924,
+      "cut_density": 0.577803,
+      "speech_load": -0.492226,
+      "music_salience": -0.275171,
+      "motion": -0.727155,
+      "text_density": -0.50634
+    }
+  },
+  {
+    "id": "entertainment-13",
+    "url": "https://youtube.com/shorts/Kc8RViYAL_U?si=FXcl0yzSy6Rp4AO4",
+    "category": "Entertainment",
+    "duration_seconds": 18.773,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.374572,
+      "cut_density": 1.576339,
+      "speech_load": -0.333524,
+      "music_salience": -0.244037,
+      "motion": 0.4173,
+      "text_density": -0.753286
+    }
+  },
+  {
+    "id": "entertainment-14",
+    "url": "https://youtube.com/shorts/47tAwzZCUdA?si=wlRz-yGoN7jSHth_",
+    "category": "Entertainment",
+    "duration_seconds": 10.517,
+    "features": {
+      "arousal": -1.172759,
+      "valence": -0.652924,
+      "cut_density": 0.883971,
+      "speech_load": -0.9834,
+      "music_salience": 0.010228,
+      "motion": -0.571719,
+      "text_density": 0.278321
+    }
+  },
+  {
+    "id": "entertainment-15",
+    "url": "https://youtube.com/shorts/qUsTHu1o-rc?si=NK1CQEaCkphr8H6O",
+    "category": "Entertainment",
+    "duration_seconds": 67.819,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.88832,
+      "cut_density": -0.733253,
+      "speech_load": 0.841065,
+      "music_salience": -0.282955,
+      "motion": 0.514192,
+      "text_density": -0.688593
+    }
+  },
+  {
+    "id": "entertainment-16",
+    "url": "https://youtube.com/shorts/7iBglj2BV8Q?si=abdqDrREJZJVk_-6",
+    "category": "Entertainment",
+    "duration_seconds": 7.552,
+    "features": {
+      "arousal": -0.142935,
+      "valence": 0.88832,
+      "cut_density": 1.552917,
+      "speech_load": -1.168592,
+      "music_salience": -0.05723,
+      "motion": -1.214082,
+      "text_density": -1.30248
+    }
+  },
+  {
+    "id": "entertainment-17",
+    "url": "https://youtube.com/shorts/pO1cS-7OMpM?si=t5NTwwqzfNhQ91ep",
+    "category": "Entertainment",
+    "duration_seconds": 23.893,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -0.397847,
+      "speech_load": -0.487608,
+      "music_salience": -0.132472,
+      "motion": -1.171274,
+      "text_density": 0.001811
+    }
+  },
+  {
+    "id": "entertainment-18",
+    "url": "https://youtube.com/shorts/9IZAszs3caw?si=TUrwD8NDuq5Y31cK",
+    "category": "Entertainment",
+    "duration_seconds": 40.705,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -1.039791,
+      "speech_load": 0.897206,
+      "music_salience": -0.301117,
+      "motion": 1.47988,
+      "text_density": 0.394142
+    }
+  },
+  {
+    "id": "entertainment-19",
+    "url": "https://youtube.com/shorts/wHUnOjktihY?si=1pFD00X3pXeExati",
+    "category": "Entertainment",
+    "duration_seconds": 20.224,
+    "features": {
+      "arousal": -1.172759,
+      "valence": 0.374572,
+      "cut_density": -0.773528,
+      "speech_load": -0.173364,
+      "music_salience": -0.244037,
+      "motion": 0.06602,
+      "text_density": 2.17563
+    }
+  },
+  {
+    "id": "entertainment-20",
+    "url": "https://youtube.com/shorts/IjH-FQ2ImHI?si=Y70LBl_eTakOX1ux",
+    "category": "Entertainment",
+    "duration_seconds": 13.184,
+    "features": {
+      "arousal": 0.371976,
+      "valence": -0.139176,
+      "cut_density": 0.579022,
+      "speech_load": -1.330697,
+      "music_salience": -0.277766,
+      "motion": -0.801376,
+      "text_density": 1.678608
+    }
   }
 ]

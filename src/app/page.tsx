@@ -34,21 +34,13 @@ export default function Onboarding() {
       const res = await fetch("/api/assign-group");
       const data = await res.json();
 
-      if (data.full) {
-        setError(
-          "The study has reached its maximum of 60 participants (30 per group). Thank you for your interest."
-        );
-        setLoading(false);
-        return;
-      }
-
       setGroup(data.group);
       const it = Math.floor(Math.random() * (420 - 180 + 1)) + 180;
       setInterruptionTime(it);
       setStep("survey");
       setLoading(false);
     } catch {
-      setError("Failed to connect to server. Please try again.");
+      setError("Server bağlantısı başarısız. Lütfen tekrar deneyin, devam etmesi halinde cahid.emin@gmail.com ile iletişime geçin.");
       setLoading(false);
     }
   };
@@ -56,7 +48,7 @@ export default function Onboarding() {
   // Step 2: Save survey and navigate to feed
   const handleSurveySubmit = async () => {
     if (!name.trim() || !age || !department.trim() || !location.trim() || !device || !screenTime) {
-      setError("Please fill in all fields.");
+      setError("Lütfen bütün soruları yanıtlayın.");
       return;
     }
 
@@ -80,7 +72,7 @@ export default function Onboarding() {
 
       const data = await res.json();
       if (!data.success) {
-        setError("Failed to save survey. Please try again.");
+        setError("Database hatası. Lütfen cahid.emin@gmail.com ile iletişime geçin");
         setLoading(false);
         return;
       }
@@ -95,7 +87,7 @@ export default function Onboarding() {
           await requestFs.call(el);
         }
       } catch (e) {
-        console.warn("Fullscreen request failed:", e);
+        console.warn("Tam ekran hatası:", e);
       }
 
       const params = new URLSearchParams({
@@ -106,7 +98,7 @@ export default function Onboarding() {
 
       router.push(`/feed?${params.toString()}`);
     } catch {
-      setError("Failed to connect to server. Please try again.");
+      setError("Failed to connect to server. Please contact 05535259122.");
       setLoading(false);
     }
   };
@@ -119,12 +111,12 @@ export default function Onboarding() {
       <div className="w-full max-w-md space-y-8 text-center">
         <div className="space-y-3">
           <h1 className="text-3xl font-bold tracking-tight">
-            Video Time Perception Lab
+            Dijital Medya Davranış Labı
           </h1>
           <p className="text-sm text-neutral-400 leading-relaxed">
             {step === "id"
-              ? "You will be shown a series of short videos. At some point, you will be asked to estimate how much time has passed. Please watch naturally — there are no right or wrong answers."
-              : "Please answer the following questions before we begin."}
+              ? "Çalışmada sosyal medya davranışlarının kısa formatlı videolar üzerinden gözlemlenmesi hedeflenmektedir. Deney sonrasında sosyal medya davranışını ölçen bir ölçek sunulacaktır, doğru ya da yanlış cevap yoktur. Lütfen doğal bir şekilde izleyin."
+              : "Lütfen aşağıdaki soruları cevaplayın"}
           </p>
         </div>
 
@@ -144,7 +136,7 @@ export default function Onboarding() {
                 value={participantId}
                 onChange={(e) => setParticipantId(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleStart()}
-                placeholder="Enter your assigned ID"
+                placeholder="Katılımcı ID'nizi girin."
                 className={inputClass}
               />
             </div>
@@ -158,7 +150,7 @@ export default function Onboarding() {
               disabled={!participantId.trim() || loading}
               className="w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {loading ? "Starting..." : "Start Experiment"}
+              {loading ? "Yönlendiriliyor..." : "Devam Et"}
             </button>
           </div>
         )}
@@ -168,20 +160,20 @@ export default function Onboarding() {
           <div className="space-y-4 text-left">
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                What is your name?
+                Adınız ve soyadınız nedir ?
               </label>
               <input
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Full name"
+                placeholder="Tam isminiz"
                 className={inputClass}
               />
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                How old are you?
+                Kaç yaşındasınız?
               </label>
               <input
                 type="number"
@@ -189,51 +181,50 @@ export default function Onboarding() {
                 max="120"
                 value={age}
                 onChange={(e) => setAge(e.target.value)}
-                placeholder="Age"
+                placeholder="Yaş"
                 className={inputClass}
               />
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                What is your department?
+                Departmanınız nedir?
               </label>
               <input
                 type="text"
                 value={department}
                 onChange={(e) => setDepartment(e.target.value)}
-                placeholder="e.g. Computer Science"
+                placeholder="e.g. Bilgisayar Mühendisliği"
                 className={inputClass}
               />
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                Where are you participating from?
+                Nereden katılım sağlıyorsunuz?
               </label>
               <input
                 type="text"
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
-                placeholder="e.g. Home, Library, Lab"
+                placeholder="e.g. Ev, kütüphane, kafe"
                 className={inputClass}
               />
             </div>
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                Which device are you using?
+                Ne tür cihaz kullanıyorsunuz?
               </label>
               <div className="flex gap-3">
                 {["iOS", "Android", "PC"].map((opt) => (
                   <button
                     key={opt}
                     onClick={() => setDevice(opt)}
-                    className={`flex-1 rounded-lg border px-4 py-3 text-sm font-medium transition ${
-                      device === opt
-                        ? "border-blue-500 bg-blue-600/20 text-blue-400"
-                        : "border-neutral-700 bg-neutral-900 text-neutral-400 hover:border-neutral-500"
-                    }`}
+                    className={`flex-1 rounded-lg border px-4 py-3 text-sm font-medium transition ${device === opt
+                      ? "border-blue-500 bg-blue-600/20 text-blue-400"
+                      : "border-neutral-700 bg-neutral-900 text-neutral-400 hover:border-neutral-500"
+                      }`}
                   >
                     {opt}
                   </button>
@@ -243,7 +234,7 @@ export default function Onboarding() {
 
             <div className="space-y-2">
               <label className="text-sm font-medium text-neutral-300">
-                On average, how many hours per day do you spend on social/video apps?
+                Günlük ortalama sosyal medya ve video uygulamalarında toplam ekran süreniz nedir ?
               </label>
               <p className="text-xs text-neutral-500">
                 (YouTube, Instagram, Twitter/X, TikTok, etc.)
@@ -254,7 +245,7 @@ export default function Onboarding() {
                 max="24"
                 value={screenTime}
                 onChange={(e) => setScreenTime(e.target.value)}
-                placeholder="Hours per day"
+                placeholder="Günlük ortalama saat"
                 className={inputClass}
               />
             </div>
@@ -268,13 +259,13 @@ export default function Onboarding() {
               disabled={loading}
               className="w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {loading ? "Saving..." : "Continue to Experiment"}
+              {loading ? "Cevaplarınız Kaydediliyor..." : "Deneye Katıl"}
             </button>
           </div>
         )}
 
         <p className="text-xs text-neutral-600">
-          By participating, you consent to this research study.
+          Katılarak, bu araştırma çalışmasına rıza göstermiş oluyorsunuz.
         </p>
       </div>
     </main>

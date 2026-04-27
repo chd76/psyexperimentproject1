@@ -1,8 +1,19 @@
+export interface VideoFeatures {
+  arousal: number;
+  valence: number;
+  cut_density: number;
+  speech_load: number;
+  music_salience: number;
+  motion: number;
+  text_density: number;
+}
+
 export interface Video {
   id: string;
   url: string;
   category: string;
   duration_seconds: number;
+  features: VideoFeatures;
 }
 
 export interface VideoEvent {
@@ -21,6 +32,13 @@ export interface SessionData {
   average_watch_ratio: number;
   total_videos_viewed: number;
   event_log: VideoEvent[];
+  avg_arousal: number;
+  avg_valence: number;
+  avg_cut_density: number;
+  avg_speech_load: number;
+  avg_music_salience: number;
+  avg_motion: number;
+  avg_text_density: number;
 }
 
 export interface CategoryWeights {

@@ -1,11 +1,8 @@
 import { NextResponse } from "next/server";
 import { supabase } from "@/lib/supabase";
 
-const MAX_PER_GROUP = 30;
-
 export async function GET() {
   try {
-    // Get current counts
     const { data: row, error: fetchError } = await supabase
       .from("group_counts")
       .select("group_a, group_b")
@@ -13,7 +10,6 @@ export async function GET() {
       .single();
 
     if (fetchError) {
-      // If the row doesn't exist yet, create it
       if (fetchError.code === "PGRST116") {
         await supabase
           .from("group_counts")
@@ -34,27 +30,10 @@ export async function GET() {
 }
 
 async function assignGroup(countA: number, countB: number) {
-  const aFull = countA >= MAX_PER_GROUP;
-  const bFull = countB >= MAX_PER_GROUP;
+  // Strict alternating: A first, then B, then A, ...
+  // A goes whenever counts are equal; B goes when A is ahead by 1.
+  const group: "A" | "B" = countA <= countB ? "A" : "B";
 
-  if (aFull && bFull) {
-    return NextResponse.json({
-      group: null,
-      full: true,
-      counts: { A: countA, B: countB },
-    });
-  }
-
-  let group: "A" | "B";
-  if (aFull) {
-    group = "B";
-  } else if (bFull) {
-    group = "A";
-  } else {
-    group = Math.random() < 0.5 ? "A" : "B";
-  }
-
-  // Increment the chosen group's count
   const updateCol = group === "A" ? "group_a" : "group_b";
   const newCount = (group === "A" ? countA : countB) + 1;
 
@@ -65,7 +44,6 @@ async function assignGroup(countA: number, countB: number) {
 
   return NextResponse.json({
     group,
-    full: false,
     counts: {
       A: group === "A" ? countA + 1 : countA,
       B: group === "B" ? countB + 1 : countB,

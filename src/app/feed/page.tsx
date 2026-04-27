@@ -309,7 +309,7 @@ function FeedContent() {
         // Streak: next 2 videos from this category
         streakRef.current = { category: cat, remaining: 2 };
       } else if (ratio <= 0.2) {
-        w[cat] = Math.max((w[cat] || 10) - 10, 1);
+        w[cat] = Math.max((w[cat] || 10) - 5, 1);
         // Break any active streak
         streakRef.current = { category: "", remaining: 0 };
       } else {
@@ -376,11 +376,28 @@ function FeedContent() {
     const perceivedSeconds = mins * 60 + secs;
     const actualSeconds = Math.round(totalWatchTimeRef.current);
 
+    const totalRatio = eventLogRef.current.reduce((sum, e) => sum + e.ratio, 0);
     const avgRatio =
-      eventLogRef.current.length > 0
-        ? eventLogRef.current.reduce((sum, e) => sum + e.ratio, 0) /
-        eventLogRef.current.length
-        : 0;
+      eventLogRef.current.length > 0 ? totalRatio / eventLogRef.current.length : 0;
+
+    const featureKeys = [
+      "arousal", "valence", "cut_density", "speech_load",
+      "music_salience", "motion", "text_density",
+    ] as const;
+    const weightedSums: Record<string, number> = Object.fromEntries(featureKeys.map((k) => [k, 0]));
+    for (const e of eventLogRef.current) {
+      const vid = (videosData as Video[]).find((v) => v.id === e.video_id);
+      if (!vid) continue;
+      for (const k of featureKeys) {
+        weightedSums[k] += e.ratio * vid.features[k];
+      }
+    }
+    const avgFeatures = Object.fromEntries(
+      featureKeys.map((k) => [
+        `avg_${k}`,
+        totalRatio > 0 ? Math.round((weightedSums[k] / totalRatio) * 1e6) / 1e6 : 0,
+      ])
+    );
 
     const distortion =
       actualSeconds > 0
@@ -396,6 +413,7 @@ function FeedContent() {
       average_watch_ratio: Math.round(avgRatio * 100) / 100,
       total_videos_viewed: eventLogRef.current.length,
       event_log: eventLogRef.current,
+      ...avgFeatures,
     };
 
     try {
@@ -409,7 +427,7 @@ function FeedContent() {
     }
 
     const params = new URLSearchParams({ pid: participantId, group });
-    router.push(`/debrief?${params.toString()}`);
+    router.push(`/post-survey?${params.toString()}`);
   };
 
   if (!currentVideo) {

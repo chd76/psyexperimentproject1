@@ -21,6 +21,13 @@ export async function POST(request: NextRequest) {
       time_distortion_percentage: data.time_distortion_percentage ?? 0,
       average_watch_ratio: data.average_watch_ratio ?? 0,
       total_videos_viewed: data.total_videos_viewed ?? 0,
+      avg_arousal: data.avg_arousal ?? 0,
+      avg_valence: data.avg_valence ?? 0,
+      avg_cut_density: data.avg_cut_density ?? 0,
+      avg_speech_load: data.avg_speech_load ?? 0,
+      avg_music_salience: data.avg_music_salience ?? 0,
+      avg_motion: data.avg_motion ?? 0,
+      avg_text_density: data.avg_text_density ?? 0,
     });
 
     if (sessionError) throw sessionError;
