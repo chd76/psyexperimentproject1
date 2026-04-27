@@ -442,9 +442,6 @@ function FeedContent() {
     <div
       ref={feedRef}
       className="fixed inset-0 bg-black"
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
-      onWheel={handleWheel}
     >
       {/* Video Player */}
       <div
