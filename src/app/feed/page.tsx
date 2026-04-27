@@ -463,12 +463,6 @@ function FeedContent() {
           />
         )}
 
-        {/* Category label */}
-        <div className="absolute top-6 left-4 bg-black/50 rounded-full px-3 py-1 z-30">
-          <span className="text-xs text-white/70">
-            {currentVideo.category}
-          </span>
-        </div>
 
         {/* Mute/Unmute button */}
         {!showSurvey && (
