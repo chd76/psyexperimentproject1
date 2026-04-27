@@ -192,7 +192,7 @@ function PostSurveyContent() {
             Zaman Farkındalığının Değerlendirilmesinde Kullanılan Değişkenler
           </h1>
           <p className="text-sm text-neutral-400">
-            Aşağıdaki soruları lütfen dürüstçe yanıtlayın.
+            Lütfen sıradaki soruları dürüstçe cevaplayın.
           </p>
         </div>
 
@@ -210,21 +210,8 @@ function PostSurveyContent() {
             </p>
           </div>
 
-          {/* Şimdiki Zaman */}
           <div className="space-y-4">
-            <p className="text-sm font-semibold text-neutral-300">Şimdiki Zaman</p>
-            {SPEED_QUESTIONS.slice(0, 2).map((q) => (
-              <div key={q.key} className="space-y-2">
-                <p className="text-sm text-neutral-200">{q.label}</p>
-                <SpeedRow value={answers[q.key] ?? null} onChange={(v) => set(q.key, v)} />
-              </div>
-            ))}
-          </div>
-
-          {/* Geçmiş Zaman */}
-          <div className="space-y-4">
-            <p className="text-sm font-semibold text-neutral-300">Geçmiş Zaman</p>
-            {SPEED_QUESTIONS.slice(2).map((q) => (
+            {SPEED_QUESTIONS.map((q) => (
               <div key={q.key} className="space-y-2">
                 <p className="text-sm text-neutral-200">
                   {q.label}
@@ -254,17 +241,16 @@ function PostSurveyContent() {
             </p>
           </div>
 
-          {LIKERT_GROUPS.map((grp) => (
-            <div key={grp.title} className="space-y-4">
-              <p className="text-sm font-semibold text-neutral-300">{grp.title}</p>
-              {grp.questions.map((q) => (
+          <div className="space-y-4">
+            {LIKERT_GROUPS.flatMap((grp) =>
+              grp.questions.map((q) => (
                 <div key={q.key} className="space-y-2">
                   <p className="text-sm text-neutral-200">{q.label}</p>
                   <LikertRow value={answers[q.key] ?? null} onChange={(v) => set(q.key, v)} />
                 </div>
-              ))}
-            </div>
-          ))}
+              ))
+            )}
+          </div>
         </section>
 
         {/* Gönder */}
