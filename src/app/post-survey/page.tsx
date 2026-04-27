@@ -187,10 +187,7 @@ function PostSurveyContent() {
     <div className="min-h-screen bg-neutral-950 text-white px-4 py-10">
       <div className="mx-auto max-w-2xl space-y-10">
         {/* Başlık */}
-        <div className="text-center space-y-2">
-          <h1 className="text-2xl font-bold">
-            Zaman Farkındalığının Değerlendirilmesinde Kullanılan Değişkenler
-          </h1>
+        <div className="text-center">
           <p className="text-sm text-neutral-400">
             Lütfen sıradaki soruları dürüstçe cevaplayın.
           </p>
