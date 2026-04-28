@@ -216,18 +216,19 @@ function FeedContent() {
 
             // Log the in-progress video before stopping — otherwise the final
             // video the participant watched would never make it into the event log.
+            // Raw (uncapped) ratio so rewatches show up as 2.0, 3.5, etc.
             const finalVideo = currentVideoRef.current;
             if (finalVideo) {
               const watchTime = cumulativeVideoWatchRef.current;
-              const ratio =
+              const rawRatio =
                 finalVideo.duration_seconds > 0
-                  ? Math.min(watchTime / finalVideo.duration_seconds, 1.0)
+                  ? watchTime / finalVideo.duration_seconds
                   : 0;
               eventLogRef.current.push({
                 video_id: finalVideo.id,
                 category: finalVideo.category,
                 watch_time: Math.round(watchTime * 100) / 100,
-                ratio: Math.round(ratio * 100) / 100,
+                ratio: Math.round(rawRatio * 100) / 100,
               });
             }
 
@@ -307,37 +308,39 @@ function FeedContent() {
 
     const watchTime = cumulativeVideoWatchRef.current;
 
-    const ratio =
-      video.duration_seconds > 0
-        ? Math.min(watchTime / video.duration_seconds, 1.0)
-        : 0;
+    // Raw ratio preserves rewatches (e.g., 2.5× = 2.5).  Logged to events table.
+    const rawRatio =
+      video.duration_seconds > 0 ? watchTime / video.duration_seconds : 0;
+    // Capped ratio is used for the algorithm so a rewatch can't pump category
+    // weight beyond what a single full watch would.
+    const cappedRatio = Math.min(rawRatio, 1.0);
 
-    // Log the event
+    // Log the event with the RAW ratio
     eventLogRef.current.push({
       video_id: video.id,
       category: video.category,
       watch_time: Math.round(watchTime * 100) / 100,
-      ratio: Math.round(ratio * 100) / 100,
+      ratio: Math.round(rawRatio * 100) / 100,
     });
 
-    // Update weights for Group A
+    // Update weights for Group A using the CAPPED ratio
     if (group === "A") {
       const w = weightsRef.current;
       const cat = video.category;
 
-      if (ratio >= 0.9) {
-        w[cat] = (w[cat] || 10) + ratio * 15;
+      if (cappedRatio >= 0.9) {
+        w[cat] = (w[cat] || 10) + cappedRatio * 15;
         // Streak: next 2 videos from this category
         streakRef.current = { category: cat, remaining: 2 };
-      } else if (ratio <= 0.2) {
+      } else if (cappedRatio <= 0.2) {
         w[cat] = Math.max((w[cat] || 10) - 5, 1);
         // Break any active streak
         streakRef.current = { category: "", remaining: 0 };
       } else {
-        w[cat] = (w[cat] || 10) + ratio * 5;
+        w[cat] = (w[cat] || 10) + cappedRatio * 5;
       }
 
-      console.log("[Algorithm] Video:", video.id, "| Category:", cat, "| Ratio:", ratio.toFixed(2), "| New weight:", w[cat].toFixed(1), "| Streak:", streakRef.current.remaining);
+      console.log("[Algorithm] Video:", video.id, "| Category:", cat, "| Raw ratio:", rawRatio.toFixed(2), "| Capped:", cappedRatio.toFixed(2), "| New weight:", w[cat].toFixed(1), "| Streak:", streakRef.current.remaining);
     }
 
     // Pick next video BEFORE decrementing streak so the algorithm sees the correct count
