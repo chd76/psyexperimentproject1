@@ -17,7 +17,6 @@ export default function Onboarding() {
   // Two-step flow: "id" then "survey"
   const [step, setStep] = useState<"id" | "survey">("id");
   const [group, setGroup] = useState("");
-  const [interruptionTime, setInterruptionTime] = useState(0);
 
   // Survey fields
   const [name, setName] = useState("");
@@ -50,8 +49,6 @@ export default function Onboarding() {
       }
 
       setGroup(data.group);
-      const it = Math.floor(Math.random() * (420 - 180 + 1)) + 180;
-      setInterruptionTime(it);
       setStep("survey");
       setLoading(false);
       startingRef.current = false;
@@ -113,7 +110,6 @@ export default function Onboarding() {
       const params = new URLSearchParams({
         pid: participantId.trim(),
         group,
-        it: interruptionTime.toString(),
       });
 
       router.push(`/feed?${params.toString()}`);

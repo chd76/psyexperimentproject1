@@ -34,11 +34,7 @@ function FeedContent() {
 
   const participantId = searchParams.get("pid") || "";
   const group = (searchParams.get("group") as Group) || "A";
-  // Read randomized interruption time from URL (set in onboarding, 180–420 s).
-  // Fall back to 720 s only if missing/invalid so the experiment never breaks.
-  const itParam = parseInt(searchParams.get("it") || "", 10);
-  const interruptionTime =
-    Number.isFinite(itParam) && itParam > 0 ? itParam : 720;
+  const interruptionTime = 720; // 12 minutes
 
   // State
   const [currentVideo, setCurrentVideo] = useState<Video | null>(null);
