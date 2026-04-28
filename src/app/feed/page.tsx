@@ -213,6 +213,24 @@ function FeedContent() {
           if (totalWatchTimeRef.current >= interruptionTime) {
             interruptedRef.current = true;
             playerRef.current.pauseVideo();
+
+            // Log the in-progress video before stopping — otherwise the final
+            // video the participant watched would never make it into the event log.
+            const finalVideo = currentVideoRef.current;
+            if (finalVideo) {
+              const watchTime = cumulativeVideoWatchRef.current;
+              const ratio =
+                finalVideo.duration_seconds > 0
+                  ? Math.min(watchTime / finalVideo.duration_seconds, 1.0)
+                  : 0;
+              eventLogRef.current.push({
+                video_id: finalVideo.id,
+                category: finalVideo.category,
+                watch_time: Math.round(watchTime * 100) / 100,
+                ratio: Math.round(ratio * 100) / 100,
+              });
+            }
+
             setInterrupted(true);
             setShowSurvey(true);
             if (progressIntervalRef.current) {
