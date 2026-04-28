@@ -12,6 +12,12 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Idempotency: clear any prior rows for this participant so retries
+    // (or rapid double-clicks that slip through the client guard) overwrite
+    // rather than duplicate.
+    await supabase.from("events").delete().eq("participant_id", data.participant_id);
+    await supabase.from("sessions").delete().eq("participant_id", data.participant_id);
+
     // Insert session row
     const { error: sessionError } = await supabase.from("sessions").insert({
       participant_id: data.participant_id,

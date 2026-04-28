@@ -67,6 +67,7 @@ function FeedContent() {
   const [estimatedSeconds, setEstimatedSeconds] = useState("");
   const [saveError, setSaveError] = useState("");
   const [saving, setSaving] = useState(false);
+  const savingRef = useRef(false);
 
   // Touch tracking for swipe
   const touchStartY = useRef(0);
@@ -373,6 +374,13 @@ function FeedContent() {
 
   // Survey submit
   const handleSurveySubmit = async () => {
+    // Synchronous guard against rapid double-clicks (state-based `saving` is async
+    // and won't disable the button before a second click slips through).
+    if (savingRef.current) return;
+    savingRef.current = true;
+    setSaving(true);
+    setSaveError("");
+
     const mins = parseInt(estimatedMinutes || "0", 10);
     const secs = parseInt(estimatedSeconds || "0", 10);
     const perceivedSeconds = mins * 60 + secs;
@@ -418,9 +426,6 @@ function FeedContent() {
       ...avgFeatures,
     };
 
-    setSaveError("");
-    setSaving(true);
-
     try {
       const res = await fetch("/api/save-session", {
         method: "POST",
@@ -436,6 +441,7 @@ function FeedContent() {
       console.error("Failed to save session:", err);
       setSaveError("Veriler kaydedilemedi. Lütfen tekrar deneyin.");
       setSaving(false);
+      savingRef.current = false;
       return;
     }
 

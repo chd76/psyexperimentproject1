@@ -12,6 +12,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Idempotency: clear any prior post-survey row for this participant
+    await supabase.from("post_surveys").delete().eq("participant_id", data.participant_id);
+
     const { error } = await supabase.from("post_surveys").insert({
       participant_id: data.participant_id,
       // Section 1 – speed scale (-2 to 2)
