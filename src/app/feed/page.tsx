@@ -34,7 +34,11 @@ function FeedContent() {
 
   const participantId = searchParams.get("pid") || "";
   const group = (searchParams.get("group") as Group) || "A";
-  const interruptionTime = 720;
+  // Read randomized interruption time from URL (set in onboarding, 180–420 s).
+  // Fall back to 720 s only if missing/invalid so the experiment never breaks.
+  const itParam = parseInt(searchParams.get("it") || "", 10);
+  const interruptionTime =
+    Number.isFinite(itParam) && itParam > 0 ? itParam : 720;
 
   // State
   const [currentVideo, setCurrentVideo] = useState<Video | null>(null);
@@ -526,7 +530,7 @@ function FeedContent() {
         {/* Swipe hint */}
         {!showSurvey && (
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30 text-xs animate-bounce z-10">
-            Swipe up for next
+            Sonraki video için yukarı kaydırın
           </div>
         )}
       </div>
@@ -541,13 +545,13 @@ function FeedContent() {
               <line x1="21" y1="3" x2="14" y2="10" />
               <line x1="3" y1="21" x2="10" y2="14" />
             </svg>
-            <p className="text-white text-lg font-medium">Fullscreen Required</p>
-            <p className="text-white/50 text-sm">Please return to fullscreen to continue</p>
+            <p className="text-white text-lg font-medium">Tam Ekran Gerekli</p>
+            <p className="text-white/50 text-sm">Devam etmek için lütfen tam ekrana geri dönün</p>
             <button
               onClick={reEnterFullscreen}
               className="mt-2 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-500 transition"
             >
-              Re-enter Fullscreen
+              Tam Ekrana Geri Dön
             </button>
           </div>
         </div>
@@ -565,8 +569,8 @@ function FeedContent() {
               <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
               <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
             </svg>
-            <p className="text-white text-lg font-medium">Tap to start with sound</p>
-            <p className="text-white/50 text-sm">The experiment will begin</p>
+            <p className="text-white text-lg font-medium">Sesle başlatmak için dokunun</p>
+            <p className="text-white/50 text-sm">Deney başlayacak</p>
           </div>
         </div>
       )}
@@ -576,16 +580,16 @@ function FeedContent() {
         <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
           <div className="bg-neutral-900 border border-neutral-700 rounded-2xl p-8 w-full max-w-sm space-y-6 shadow-2xl">
             <div className="text-center space-y-2">
-              <h2 className="text-xl font-bold text-white">Pause!</h2>
+              <h2 className="text-xl font-bold text-white">Mola!</h2>
               <p className="text-sm text-neutral-400 leading-relaxed">
-                Without checking a clock, how many minutes and seconds do you
-                think have passed since you started watching?
+                Saate bakmadan, izlemeye başladığınızdan beri kaç dakika ve
+                saniye geçtiğini düşünüyorsunuz?
               </p>
             </div>
 
             <div className="flex gap-4">
               <div className="flex-1 space-y-1">
-                <label className="text-xs text-neutral-500">Minutes</label>
+                <label className="text-xs text-neutral-500">Dakika</label>
                 <input
                   type="number"
                   min="0"
@@ -600,7 +604,7 @@ function FeedContent() {
                 :
               </div>
               <div className="flex-1 space-y-1">
-                <label className="text-xs text-neutral-500">Seconds</label>
+                <label className="text-xs text-neutral-500">Saniye</label>
                 <input
                   type="number"
                   min="0"
@@ -622,7 +626,7 @@ function FeedContent() {
               disabled={estimatedMinutes === "" || estimatedSeconds === "" || saving}
               className="w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {saving ? "Kaydediliyor..." : "Submit Estimate"}
+              {saving ? "Kaydediliyor..." : "Tahminimi Gönder"}
             </button>
           </div>
         </div>

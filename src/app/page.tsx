@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function Onboarding() {
@@ -8,6 +8,11 @@ export default function Onboarding() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const router = useRouter();
+
+  // Synchronous guards against rapid double-clicks (state-based `loading` is
+  // async and won't disable the button before a second click slips through).
+  const startingRef = useRef(false);
+  const submittingRef = useRef(false);
 
   // Two-step flow: "id" then "survey"
   const [step, setStep] = useState<"id" | "survey">("id");
@@ -24,34 +29,48 @@ export default function Onboarding() {
 
   // Step 1: Validate ID and get group assignment
   const handleStart = async () => {
+    if (startingRef.current) return;
     const trimmed = participantId.trim();
     if (!trimmed) return;
 
+    startingRef.current = true;
     setLoading(true);
     setError("");
 
     try {
-      const res = await fetch("/api/assign-group");
+      // Pass participant_id so the server can dedupe per participant —
+      // refreshes / repeat visits no longer inflate group_counts.
+      const res = await fetch(
+        `/api/assign-group?pid=${encodeURIComponent(trimmed)}`
+      );
       const data = await res.json();
+
+      if (!data.group) {
+        throw new Error("No group returned");
+      }
 
       setGroup(data.group);
       const it = Math.floor(Math.random() * (420 - 180 + 1)) + 180;
       setInterruptionTime(it);
       setStep("survey");
       setLoading(false);
+      startingRef.current = false;
     } catch {
       setError("Server bağlantısı başarısız. Lütfen tekrar deneyin, devam etmesi halinde cahid.emin@gmail.com ile iletişime geçin.");
       setLoading(false);
+      startingRef.current = false;
     }
   };
 
   // Step 2: Save survey and navigate to feed
   const handleSurveySubmit = async () => {
+    if (submittingRef.current) return;
     if (!name.trim() || !age || !department.trim() || !location.trim() || !device || !screenTime) {
       setError("Lütfen bütün soruları yanıtlayın.");
       return;
     }
 
+    submittingRef.current = true;
     setLoading(true);
     setError("");
 
@@ -74,6 +93,7 @@ export default function Onboarding() {
       if (!data.success) {
         setError("Database hatası. Lütfen cahid.emin@gmail.com ile iletişime geçin");
         setLoading(false);
+        submittingRef.current = false;
         return;
       }
 
@@ -100,6 +120,7 @@ export default function Onboarding() {
     } catch {
       setError("Failed to connect to server. Please contact 05535259122.");
       setLoading(false);
+      submittingRef.current = false;
     }
   };
 

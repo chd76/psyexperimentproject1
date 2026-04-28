@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, Suspense } from "react";
+import { useRef, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 
 // ─── Speed scale (-2 … +2) ───────────────────────────────────────────────────
@@ -149,6 +149,8 @@ function PostSurveyContent() {
   const [answers, setAnswers] = useState<Record<string, number | null>>({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  // Synchronous guard against rapid double-clicks.
+  const submittingRef = useRef(false);
 
   const set = (key: string, value: number) =>
     setAnswers((prev) => ({ ...prev, [key]: value }));
@@ -161,22 +163,32 @@ function PostSurveyContent() {
   const allAnswered = requiredKeys.every((k) => answers[k] != null);
 
   const handleSubmit = async () => {
+    if (submittingRef.current) return;
     if (!allAnswered) {
       setError("Lütfen tüm soruları yanıtlayın.");
       return;
     }
 
+    submittingRef.current = true;
     setLoading(true);
     setError("");
 
     try {
-      await fetch("/api/save-post-survey", {
+      const res = await fetch("/api/save-post-survey", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ participant_id: participantId, ...answers }),
       });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.error || `HTTP ${res.status}`);
+      }
     } catch (err) {
       console.error("Failed to save post-survey:", err);
+      setError("Veriler kaydedilemedi. Lütfen tekrar deneyin.");
+      setLoading(false);
+      submittingRef.current = false;
+      return;
     }
 
     const params = new URLSearchParams({ pid: participantId, group });

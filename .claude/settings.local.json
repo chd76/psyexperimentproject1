@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const v = require\\('./src/data/videos.json'\\); const cats = [...new Set\\(v.map\\(x=>x.category\\)\\)].sort\\(\\); console.log\\('Categories:', JSON.stringify\\(cats, null, 2\\)\\); console.log\\('Total videos:', v.length\\); cats.forEach\\(c => console.log\\(c, ':', v.filter\\(x=>x.category===c\\).length\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const v = require\\('./src/data/videos.json'\\); const bad = v.filter\\(x => !x.id || !x.url || !x.category || !x.duration_seconds\\); console.log\\('Missing required fields:', bad.length\\); const noFeatures = v.filter\\(x => !x.features\\); console.log\\('Missing features:', noFeatures.length\\); console.log\\('Sample video:', JSON.stringify\\(v[0]\\)\\)\")"
+    ]
+  }
+}

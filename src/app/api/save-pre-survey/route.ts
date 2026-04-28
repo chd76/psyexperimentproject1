@@ -12,6 +12,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Idempotency: clear any prior pre-survey row for this participant
+    await supabase.from("pre_surveys").delete().eq("participant_id", data.participant_id);
+
     const { error } = await supabase.from("pre_surveys").insert({
       participant_id: data.participant_id,
       name: data.name ?? "",
