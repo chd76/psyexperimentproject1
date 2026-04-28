@@ -65,6 +65,8 @@ function FeedContent() {
   // Survey state
   const [estimatedMinutes, setEstimatedMinutes] = useState("");
   const [estimatedSeconds, setEstimatedSeconds] = useState("");
+  const [saveError, setSaveError] = useState("");
+  const [saving, setSaving] = useState(false);
 
   // Touch tracking for swipe
   const touchStartY = useRef(0);
@@ -416,14 +418,25 @@ function FeedContent() {
       ...avgFeatures,
     };
 
+    setSaveError("");
+    setSaving(true);
+
     try {
-      await fetch("/api/save-session", {
+      const res = await fetch("/api/save-session", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(sessionData),
       });
+
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error(body.error || `HTTP ${res.status}`);
+      }
     } catch (err) {
       console.error("Failed to save session:", err);
+      setSaveError("Veriler kaydedilemedi. Lütfen tekrar deneyin.");
+      setSaving(false);
+      return;
     }
 
     const params = new URLSearchParams({ pid: participantId, group });
@@ -573,12 +586,16 @@ function FeedContent() {
               </div>
             </div>
 
+            {saveError && (
+              <p className="text-sm text-red-400 text-center">{saveError}</p>
+            )}
+
             <button
               onClick={handleSurveySubmit}
-              disabled={estimatedMinutes === "" || estimatedSeconds === ""}
+              disabled={estimatedMinutes === "" || estimatedSeconds === "" || saving}
               className="w-full rounded-lg bg-blue-600 px-4 py-3 font-semibold text-white transition hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              Submit Estimate
+              {saving ? "Kaydediliyor..." : "Submit Estimate"}
             </button>
           </div>
         </div>
