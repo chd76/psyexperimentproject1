@@ -330,8 +330,11 @@ function FeedContent() {
 
       if (cappedRatio >= 0.9) {
         w[cat] = (w[cat] || 10) + cappedRatio * 15;
-        // Streak: next 2 videos from this category
-        streakRef.current = { category: cat, remaining: 2 };
+        // Only start a streak if one isn't already active — prevents back-to-back
+        // high-engagement videos from extending the streak indefinitely.
+        if (streakRef.current.remaining === 0) {
+          streakRef.current = { category: cat, remaining: 2 };
+        }
       } else if (cappedRatio <= 0.2) {
         w[cat] = Math.max((w[cat] || 10) - 5, 1);
         // Break any active streak
