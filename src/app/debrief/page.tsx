@@ -2,11 +2,14 @@
 
 import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect } from "react";
+import { useTracking } from "@/lib/useTracking";
 
 function DebriefContent() {
   const searchParams = useSearchParams();
   const participantId = searchParams.get("pid") || "Unknown";
   const group = searchParams.get("group") || "?";
+
+  useTracking(participantId, "debrief");
 
   // Exit fullscreen when arriving at debrief
   useEffect(() => {
@@ -22,7 +25,7 @@ function DebriefContent() {
       <div className="w-full max-w-md space-y-6 text-center">
         <div className="space-y-3">
           <div className="text-5xl mb-4">&#10003;</div>
-          <h1 className="text-3xl font-bold tracking-tight">Katılımınız için teşşekür ederiz!</h1>
+          <h1 className="text-3xl font-bold tracking-tight">Katılımınız için teşekkür ederiz!</h1>
           <p className="text-sm text-neutral-400 leading-relaxed">
             Oturumunuz başarıyla kaydedildi. Zaman algısı
             ve video tüketimi üzerine yapılan bu araştırma

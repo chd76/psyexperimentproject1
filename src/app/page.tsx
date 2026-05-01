@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useTracking } from "@/lib/useTracking";
 
 export default function Onboarding() {
   const [participantId, setParticipantId] = useState("");
@@ -17,6 +18,8 @@ export default function Onboarding() {
   // Two-step flow: "id" then "survey"
   const [step, setStep] = useState<"id" | "survey">("id");
   const [group, setGroup] = useState("");
+
+  const { trackError } = useTracking(participantId, "onboarding");
 
   // Survey fields
   const [name, setName] = useState("");
@@ -52,7 +55,8 @@ export default function Onboarding() {
       setStep("survey");
       setLoading(false);
       startingRef.current = false;
-    } catch {
+    } catch (err) {
+      trackError(err instanceof Error ? err.message : "Unknown error", "assign_group");
       setError("Server bağlantısı başarısız. Lütfen tekrar deneyin, devam etmesi halinde cahid.emin@gmail.com ile iletişime geçin.");
       setLoading(false);
       startingRef.current = false;
@@ -113,8 +117,9 @@ export default function Onboarding() {
       });
 
       router.push(`/feed?${params.toString()}`);
-    } catch {
-      setError("Failed to connect to server. Please contact 05535259122.");
+    } catch (err) {
+      trackError(err instanceof Error ? err.message : "Unknown error", "save_pre_survey");
+      setError("Server bağlantısı başarısız. Lütfen tekrar deneyin, devam etmesi halinde cahid.emin@gmail.com ile iletişime geçin.");
       setLoading(false);
       submittingRef.current = false;
     }

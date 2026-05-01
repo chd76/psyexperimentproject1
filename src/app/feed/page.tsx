@@ -5,6 +5,7 @@ import { useState, useRef, useCallback, useEffect, Suspense } from "react";
 import type { Video, VideoEvent, Group, CategoryWeights } from "@/types";
 import videosData from "@/data/videos.json";
 import { getNextVideo } from "@/lib/algorithm";
+import { useTracking } from "@/lib/useTracking";
 
 // Extract YouTube video ID from any YouTube URL format
 function getYouTubeId(url: string): string | null {
@@ -68,6 +69,8 @@ function FeedContent() {
   const [saveError, setSaveError] = useState("");
   const [saving, setSaving] = useState(false);
   const savingRef = useRef(false);
+
+  const { setStage, trackEvent, trackError, setUnloadPayload } = useTracking(participantId, "feed_loading");
 
   // Touch tracking for swipe
   const touchStartY = useRef(0);
@@ -160,12 +163,13 @@ function FeedContent() {
 
     const tag = document.createElement("script");
     tag.src = "https://www.youtube.com/iframe_api";
+    tag.onerror = () => trackError("YouTube IFrame API failed to load", "yt_api_load");
     document.head.appendChild(tag);
 
     window.onYouTubeIframeAPIReady = () => {
       setYtReady(true);
     };
-  }, []);
+  }, [trackError]);
 
   // Initialize weights and pick first video
   useEffect(() => {
@@ -185,7 +189,14 @@ function FeedContent() {
     );
     seenIdsRef.current.add(firstVideo.id);
     setCurrentVideo(firstVideo);
-  }, [group]);
+
+    setUnloadPayload(() => ({
+      total_watch_time: Math.round(totalWatchTimeRef.current * 100) / 100,
+      videos_seen: eventLogRef.current.length,
+      current_video_id: currentVideoRef.current?.id ?? null,
+      partial_event_log: eventLogRef.current,
+    }));
+  }, [group, setUnloadPayload]);
 
   // Start progress tracking interval
   const startProgressTracking = useCallback(() => {
@@ -234,6 +245,7 @@ function FeedContent() {
 
             setInterrupted(true);
             setShowSurvey(true);
+            setStage("feed_interrupted");
             if (progressIntervalRef.current) {
               clearInterval(progressIntervalRef.current);
             }
@@ -282,6 +294,7 @@ function FeedContent() {
         onReady: () => {
           playerRef.current?.playVideo();
           startProgressTracking();
+          setStage("feed_watching");
         },
         onStateChange: (event: YT.OnStateChangeEvent) => {
           // YT.PlayerState.ENDED === 0 — loop the video instead of advancing
@@ -321,6 +334,15 @@ function FeedContent() {
       category: video.category,
       watch_time: Math.round(watchTime * 100) / 100,
       ratio: Math.round(rawRatio * 100) / 100,
+    });
+
+    trackEvent("video_advance", {
+      video_id: video.id,
+      category: video.category,
+      watch_time: Math.round(watchTime * 100) / 100,
+      ratio: Math.round(rawRatio * 100) / 100,
+      total_watch_time: Math.round(totalWatchTimeRef.current * 100) / 100,
+      videos_seen: eventLogRef.current.length,
     });
 
     // Update weights for Group A using the CAPPED ratio
@@ -366,7 +388,7 @@ function FeedContent() {
     currentVideoWatchTimeRef.current = 0;
     cumulativeVideoWatchRef.current = 0;
     setCurrentVideo(next);
-  }, [group]);
+  }, [group, trackEvent]);
 
   // Swipe handling
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -395,6 +417,23 @@ function FeedContent() {
     },
     [advanceVideoFn]
   );
+
+  // Keyboard support: Space and ArrowDown advance to next video
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (interruptedRef.current) return;
+      if (e.code !== "Space" && e.code !== "ArrowDown") return;
+      if (wheelCooldown.current) return;
+      e.preventDefault();
+      wheelCooldown.current = true;
+      advanceVideoFn();
+      setTimeout(() => {
+        wheelCooldown.current = false;
+      }, 800);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [advanceVideoFn]);
 
   // Survey submit
   const handleSurveySubmit = async () => {
@@ -463,6 +502,7 @@ function FeedContent() {
       }
     } catch (err) {
       console.error("Failed to save session:", err);
+      trackError(err instanceof Error ? err.message : "Unknown error", "save_session");
       setSaveError("Veriler kaydedilemedi. Lütfen tekrar deneyin.");
       setSaving(false);
       savingRef.current = false;

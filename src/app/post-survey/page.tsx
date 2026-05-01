@@ -2,6 +2,7 @@
 
 import { useRef, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
+import { useTracking } from "@/lib/useTracking";
 
 // ─── Speed scale (-2 … +2) ───────────────────────────────────────────────────
 const SPEED_LABELS: Record<number, string> = {
@@ -146,6 +147,8 @@ function PostSurveyContent() {
   const participantId = searchParams.get("pid") || "";
   const group = searchParams.get("group") || "";
 
+  const { trackError } = useTracking(participantId, "post_survey");
+
   const [answers, setAnswers] = useState<Record<string, number | null>>({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -185,6 +188,7 @@ function PostSurveyContent() {
       }
     } catch (err) {
       console.error("Failed to save post-survey:", err);
+      trackError(err instanceof Error ? err.message : "Unknown error", "save_post_survey");
       setError("Veriler kaydedilemedi. Lütfen tekrar deneyin.");
       setLoading(false);
       submittingRef.current = false;
